@@ -1,7 +1,11 @@
-export default function Page() {
+import styles from "../styles.css";
+
+export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Inner Peace and Outer Strength
-    </h1>
+    <main>
+      <h1 className="text-3xl font-bold underline">
+        Inner Peace and Outer Strength
+      </h1>
+    </main>
   );
 }
