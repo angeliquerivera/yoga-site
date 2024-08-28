@@ -1,34 +1,51 @@
+"use client";
+
 import React from "react";
 // import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import "../globals.css";
 import "tailwindcss/tailwind.css";
 
 export default function Navbar() {
+  const pathname = usePathname();
   // const [menuOpen, setMenuOpen] = useState(false);
 
   // const handleNav = () => {};
 
   return (
-    <nav className="md:flex md:justify-between items-center max-w-screen-md h-18 shadow-xl bg-purple-300">
+    <header className="navbar md:flex w-screen h-18 shadow-xl bg-violet-400">
       <div className="container mx-auto flex justify-between items-center">
-        <div>
-          <ul className="hidden sm:flex gap-5">
-            <Link href="/">
-              <li className="hover:border-b-purple-800 text-xl">Home</li>
+        <div className="text-xl">InnerThoughtsOuterStrength</div>
+        <div className="justify-end">
+          <ul className="hidden sm:flex gap-6">
+            <Link
+              className={`link ${pathname === "/" ? "active" : ""}`}
+              href="/"
+            >
+              <li className="hover:border-b-purple-800 text-xl ">Home</li>
             </Link>
-            <Link href="/calendar">
+            <Link
+              className={`link ${pathname === "/about" ? "active" : ""}`}
+              href="/about"
+            >
+              <li className="hover:border-b-purple-800 text-xl">About</li>
+            </Link>
+            <Link
+              className={`link ${pathname === "/calendar" ? "active" : ""}`}
+              href="/calendar"
+            >
               <li className="hover:border-b-purple-800 text-xl">Calendar</li>
             </Link>
-            <Link href="/bio">
+            <Link
+              className={`link ${pathname === "/bio" ? "active" : ""}`}
+              href="/bio"
+            >
               <li className="hover:border-b-purple-800 text-xl">Bio</li>
-            </Link>
-            <Link href="/about">
-              <li className="hover:border-b-purple-800 text-xl">About</li>
             </Link>
           </ul>
         </div>
       </div>
-    </nav>
+    </header>
   );
 }
