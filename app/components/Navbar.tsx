@@ -6,6 +6,7 @@ import "tailwindcss/tailwind.css";
 export default function Navbar() {
   return (
     <nav>
+      <Link href="/">Home</Link>
       <Link href="/calendar">Events</Link>
       <Link href="/bio">Bio</Link>
       <Link href="/about">About</Link>

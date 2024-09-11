@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import HomeImage from "./components/HomeImage";
 import "./globals.css";
 import "tailwindcss/tailwind.css";
 
