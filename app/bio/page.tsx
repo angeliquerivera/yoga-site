@@ -8,9 +8,9 @@ export default function Bio() {
   return (
     <main>
       <h2>Bio</h2>
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div style={{ display: "flex", flexDirection: "row", gap: "16px" }}>
         <div>
-          <Image src={biopic} />
+          <Image src={biopic} alt="biopic" width="800" height="300" />
         </div>
         <div>
           <p>
