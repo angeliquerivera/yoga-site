@@ -3,8 +3,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "lint": "next lint"
   },
   "dependencies": {
     "eslint-config-next": "^14.2.9",
