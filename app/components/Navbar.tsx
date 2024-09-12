@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-// import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import "../globals.css";
@@ -9,9 +8,6 @@ import "tailwindcss/tailwind.css";
 
 export default function Navbar() {
   const pathname = usePathname();
-  // const [menuOpen, setMenuOpen] = useState(false);
-
-  // const handleNav = () => {};
 
   return (
     <header className="navbar md:flex w-screen h-18 shadow-xl bg-violet-400">
