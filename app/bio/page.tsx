@@ -2,8 +2,14 @@ import React from "react";
 import Image from "next/image";
 import biopic from "../public/biopic.jpg";
 import biopic2 from "../public/biopic2.jpg";
-import "../globals.css";
+import { Benne } from "next/font/google";
+import "../styles.css";
 import "tailwindcss/tailwind.css";
+
+const benne = Benne({
+  weight: "400",
+  preload: false,
+});
 
 export default function Bio() {
   return (
@@ -20,7 +26,7 @@ export default function Bio() {
           />
         </div>
         <div className="flex flex-col gap-2">
-          <p>
+          <p className={benne.className}>
             I have been a correction officer, working in NY State and county
             prisons for 20 years. 14 years ago, desperate to find a healthy
             outlet and relieve the stresses of my job, I turned to yoga. I had
@@ -37,7 +43,7 @@ export default function Bio() {
             passion and my dream to open up a yoga studio. I began doing Yoga
             Teacher trainings, to further my own practice, and to expand my
             knowledge of the many benefits of various styles of yoga.{" "}
-            <blockquote>
+            <blockquote className={benne.className}>
               {" "}
               <p className="tab">
                 My goals are to help people understand that: 1. EVERYONE AND
