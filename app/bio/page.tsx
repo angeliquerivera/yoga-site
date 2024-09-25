@@ -11,7 +11,13 @@ export default function Bio() {
       <h2>Bio</h2>
       <div style={{ display: "flex", flexDirection: "row", gap: "16px" }}>
         <div>
-          <Image src={biopic} alt="biopic" width="1200" height="200" />
+          <Image
+            src={biopic}
+            alt="biopic"
+            width="1200"
+            height="200"
+            className="clip-circle"
+          />
         </div>
         <div className="flex flex-col gap-2">
           <p>
@@ -30,9 +36,14 @@ export default function Bio() {
             benefits of yoga with as many people as I could. It's been my
             passion and my dream to open up a yoga studio. I began doing Yoga
             Teacher trainings, to further my own practice, and to expand my
-            knowledge of the many benefits of various styles of yoga. My goals
-            are to help people understand that: 1. EVERYONE AND ANYONE can do
-            yoga 2. The MANY benefits of yoga
+            knowledge of the many benefits of various styles of yoga.{" "}
+            <blockquote>
+              {" "}
+              <p className="tab">
+                My goals are to help people understand that: 1. EVERYONE AND
+                ANYONE can do yoga 2. The MANY benefits of yoga
+              </p>
+            </blockquote>
           </p>
         </div>
         <div className="rounded-none">
