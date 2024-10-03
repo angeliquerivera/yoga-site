@@ -2,8 +2,8 @@ import React from "react";
 import "./styles.css";
 import "tailwindcss/tailwind.css";
 import Image from "next/image";
-import firsthome from "../public/firsthome.jpg";
-import secondhome from "../public/secondhome.jpg";
+import firsthome from "./public/firsthome.jpg";
+import secondhome from "./public/secondhome.jpg";
 
 export default function Home() {
   return (
