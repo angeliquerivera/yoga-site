@@ -14,7 +14,6 @@ const montserrat = Montserrat({
 export default function Bio() {
   return (
     <main>
-      <h2>Bio</h2>
       <div
         style={{
           display: "flex",
