@@ -7,11 +7,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        serif: ["var(--font-benne)"],
-      },
-      spacing: {
-        20: "2.75rem",
+      colors: {
+        primary: "#6c3082",
       },
     },
   },
