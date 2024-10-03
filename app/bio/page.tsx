@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 import biopic from "../public/biopic.jpg";
 import biopic2 from "../public/biopic2.jpg";
-import { Benne } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "../styles.css";
 import "tailwindcss/tailwind.css";
 
-const benne = Benne({
+const montserrat = Montserrat({
   weight: "400",
   preload: false,
 });
@@ -20,13 +20,13 @@ export default function Bio() {
           <Image
             src={biopic}
             alt="biopic"
-            width="1200"
-            height="200"
-            className="clip-circle"
+            width="1600"
+            height="600"
+            className="rounded-full aspect-square object-cover"
           />
         </div>
         <div className="flex flex-col gap-2">
-          <p className={benne.className}>
+          <p className={montserrat.className}>
             I have been a correction officer, working in NY State and county
             prisons for 20 years. 14 years ago, desperate to find a healthy
             outlet and relieve the stresses of my job, I turned to yoga. I had
@@ -43,17 +43,29 @@ export default function Bio() {
             passion and my dream to open up a yoga studio. I began doing Yoga
             Teacher trainings, to further my own practice, and to expand my
             knowledge of the many benefits of various styles of yoga.{" "}
-            <blockquote className={benne.className}>
+            <blockquote className={montserrat.className}>
               {" "}
               <p className="tab">
-                My goals are to help people understand that: 1. EVERYONE AND
-                ANYONE can do yoga 2. The MANY benefits of yoga
+                My goals are to help people understand that:{" "}
+                <blockquote className="indent-28">
+                  {" "}
+                  1. EVERYONE AND ANYONE can do yoga
+                </blockquote>{" "}
+                <blockquote className="indent-28">
+                  2. The MANY benefits of yoga
+                </blockquote>
               </p>
             </blockquote>
           </p>
         </div>
-        <div className="rounded-none">
-          <Image src={biopic2} alt="biopic2" width="1500" height="500" />
+        <div className="gap-4">
+          <Image
+            src={biopic2}
+            alt="biopic2"
+            width="1800"
+            height="1000"
+            className="rounded-full aspect-square object-cover"
+          />
         </div>
       </div>
     </main>
