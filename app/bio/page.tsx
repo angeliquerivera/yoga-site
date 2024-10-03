@@ -15,13 +15,20 @@ export default function Bio() {
   return (
     <main>
       <h2>Bio</h2>
-      <div style={{ display: "flex", flexDirection: "row", gap: "16px" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyItems: "center",
+          gap: "16px",
+        }}
+      >
         <div>
           <Image
             src={biopic}
             alt="biopic"
             width="1600"
-            height="600"
+            height="1200"
             className="rounded-full aspect-square object-cover"
           />
         </div>
@@ -58,7 +65,7 @@ export default function Bio() {
             </blockquote>
           </p>
         </div>
-        <div className="gap-4">
+        <div>
           <Image
             src={biopic2}
             alt="biopic2"

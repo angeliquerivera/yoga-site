@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         serif: ["var(--font-benne)"],
       },
+      spacing: {
+        20: "2.75rem",
+      },
     },
   },
   plugins: [],
