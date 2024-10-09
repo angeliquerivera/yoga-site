@@ -15,14 +15,7 @@ export default function Bio() {
   return (
     <>
       <main>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyItems: "center",
-            gap: "16px",
-          }}
-        >
+        <div className="flex flex-row items-center gap-4">
           <div>
             <Image
               src={biopic}
