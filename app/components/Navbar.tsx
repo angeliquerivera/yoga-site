@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav>
       <Link href="/calendar">Events</Link>
       <Link href="/bio">Bio</Link>
-      <Link href="/about">About</Link>
+      <Link href="/contact">Contact Us</Link>
     </nav>
   );
 }

@@ -2,10 +2,10 @@ import React from "react";
 import "../globals.css";
 import "tailwindcss/tailwind.css";
 
-export default function About() {
+export default function Contact() {
   return (
     <main>
-      <h2>About</h2>
+      <h2>Contact Us</h2>
     </main>
   );
 }
