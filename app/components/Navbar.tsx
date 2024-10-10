@@ -17,14 +17,14 @@ export default function Navbar() {
   return (
     <>
       <header className="bg-violet-400 p-0 caret-transparent no-outline">
-        <nav className="flex justify-between items-baseline">
+        <nav className="flex justify-between items-baseline montserrat">
           <div>
             <Image
               src={omsymbol}
               alt="omsymbol"
               className="h-16 w-16 rounded-full aspect-square object-cover"
             />
-            <span className="text-purple-800 text-lg font-bold">
+            <span className="text-purple-800 text-lg font-bold ">
               Inner Peace Outer Strength
             </span>
           </div>
