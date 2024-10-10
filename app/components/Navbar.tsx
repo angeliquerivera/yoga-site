@@ -22,10 +22,10 @@ export default function Navbar() {
               <li className="hover:border-b-purple-800 text-xl ">Home</li>
             </Link>
             <Link
-              className={`link ${pathname === "/about" ? "active" : ""}`}
-              href="/about"
+              className={`link ${pathname === "/contact" ? "active" : ""}`}
+              href="/contact"
             >
-              <li className="hover:border-b-purple-800 text-xl">About</li>
+              <li className="hover:border-b-purple-800 text-xl">Contact Us</li>
             </Link>
             <Link
               className={`link ${pathname === "/calendar" ? "active" : ""}`}
