@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import "../globals.css";
+import "../styles.css";
 import "tailwindcss/tailwind.css";
 
 export default function Navbar() {
