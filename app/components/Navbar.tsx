@@ -9,7 +9,7 @@ import "../styles.css";
 import "tailwindcss/tailwind.css";
 
 export default function Navbar() {
-  const pathname = usePathname();
+  // const pathname = usePathname();
 
   const [isClick, setisClick] = useState(false);
 
@@ -19,15 +19,13 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="bg-violet-400 p-0">
+      <header className="bg-violet-400 p-0 caret-transparent no-outline">
         <nav className="flex justify-between items-baseline">
           <div>
             <Image
               src={omsymbol}
               alt="omsymbol"
-              width="75"
-              height="75"
-              className="rounded-full aspect-square object-cover"
+              className="h-16 w-16 rounded-full aspect-square object-cover"
             />
             <span className="text-purple-800 text-lg font-bold">
               Inner Peace Outer Strength
@@ -35,29 +33,25 @@ export default function Navbar() {
           </div>
           <div className="justify-between">
             <ul className="flex-wrap flex gap-6">
-              <Link
-                className={`link ${pathname === "/" ? "active" : ""}`}
-                href="/"
-              >
-                <a className="hover:border-b-purple-800 text-xl ">Home</a>
+              <Link href="/">
+                <li className="hover:text-purple-800 hover:underline text-xl">
+                  Home
+                </li>
               </Link>
-              <Link
-                className={`link ${pathname === "/bio" ? "active" : ""}`}
-                href="/bio"
-              >
-                <a className="hover:border-b-purple-800 text-xl">Bio</a>
+              <Link href="/bio">
+                <li className="hover:text-purple-800 hover:underline text-xl">
+                  Bio
+                </li>
               </Link>
-              <Link
-                className={`link ${pathname === "/calendar" ? "active" : ""}`}
-                href="/calendar"
-              >
-                <a className="hover:border-b-purple-800 text-xl">Calendar</a>
+              <Link href="/calendar">
+                <li className="hover:text-purple-800 hover:underline text-xl">
+                  Calendar
+                </li>
               </Link>
-              <Link
-                className={`link ${pathname === "/contact" ? "active" : ""}`}
-                href="/contact"
-              >
-                <a className="hover:border-b-purple-800 text-xl">Contact Us</a>
+              <Link href="/contact">
+                <li className="hover:text-purple-800 hover:underline text-xl">
+                  Contact Us
+                </li>
               </Link>
             </ul>
           </div>
