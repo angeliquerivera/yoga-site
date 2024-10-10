@@ -3,14 +3,11 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 import omsymbol from "../public/omsymbol.jpeg";
 import "../styles.css";
 import "tailwindcss/tailwind.css";
 
 export default function Navbar() {
-  // const pathname = usePathname();
-
   const [isClick, setisClick] = useState(false);
 
   const toggleNavbar = (): void => {
