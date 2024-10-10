@@ -4,7 +4,7 @@ import "tailwindcss/tailwind.css";
 
 export default function Contact() {
   return (
-    <main>
+    <main className="caret-transparent no-outline">
       <h2>Contact Us</h2>
     </main>
   );
