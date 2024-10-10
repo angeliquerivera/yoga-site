@@ -39,27 +39,25 @@ export default function Navbar() {
                 className={`link ${pathname === "/" ? "active" : ""}`}
                 href="/"
               >
-                <li className="hover:border-b-purple-800 text-xl ">Home</li>
+                <a className="hover:border-b-purple-800 text-xl ">Home</a>
               </Link>
               <Link
                 className={`link ${pathname === "/bio" ? "active" : ""}`}
                 href="/bio"
               >
-                <li className="hover:border-b-purple-800 text-xl">Bio</li>
+                <a className="hover:border-b-purple-800 text-xl">Bio</a>
               </Link>
               <Link
                 className={`link ${pathname === "/calendar" ? "active" : ""}`}
                 href="/calendar"
               >
-                <li className="hover:border-b-purple-800 text-xl">Calendar</li>
+                <a className="hover:border-b-purple-800 text-xl">Calendar</a>
               </Link>
               <Link
                 className={`link ${pathname === "/contact" ? "active" : ""}`}
                 href="/contact"
               >
-                <li className="hover:border-b-purple-800 text-xl">
-                  Contact Us
-                </li>
+                <a className="hover:border-b-purple-800 text-xl">Contact Us</a>
               </Link>
             </ul>
           </div>
