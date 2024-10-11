@@ -1,47 +1,60 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import Image from "next/image";
+import omsymbol from "../public/omsymbol.jpeg";
 import "../styles.css";
 import "tailwindcss/tailwind.css";
 
 export default function Navbar() {
-  const pathname = usePathname();
+  const [isClick, setisClick] = useState(false);
+
+  const toggleNavbar = (): void => {
+    setisClick(!isClick);
+  };
 
   return (
-    <header className="navbar md:flex w-screen h-18 shadow-xl bg-violet-400">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-xl">InnerThoughtsOuterStrength</div>
-        <div className="justify-end">
-          <ul className="hidden sm:flex gap-6">
-            <Link
-              className={`link ${pathname === "/" ? "active" : ""}`}
-              href="/"
-            >
-              <li className="hover:border-b-purple-800 text-xl ">Home</li>
-            </Link>
-            <Link
-              className={`link ${pathname === "/contact" ? "active" : ""}`}
-              href="/contact"
-            >
-              <li className="hover:border-b-purple-800 text-xl">Contact Us</li>
-            </Link>
-            <Link
-              className={`link ${pathname === "/calendar" ? "active" : ""}`}
-              href="/calendar"
-            >
-              <li className="hover:border-b-purple-800 text-xl">Calendar</li>
-            </Link>
-            <Link
-              className={`link ${pathname === "/bio" ? "active" : ""}`}
-              href="/bio"
-            >
-              <li className="hover:border-b-purple-800 text-xl">Bio</li>
-            </Link>
-          </ul>
-        </div>
-      </div>
-    </header>
+    <>
+      <header className="bg-violet-400 p-0">
+        <nav className="flex justify-between place-items-baseline">
+          <div className="flex items-baseline">
+            <Image
+              src={omsymbol}
+              alt="omsymbol"
+              className="h-16 w-16 rounded-full aspect-square object-cover"
+            />
+            <span className="text-purple-800 text-2xl">
+              Inner Peace Outer Strength
+            </span>
+          </div>
+
+          <div className="flex-col">
+            <ul className="flex-wrap flex gap-6">
+              <Link href="/">
+                <li className="hover:text-purple-800 hover:underline text-xl">
+                  Home
+                </li>
+              </Link>
+              <Link href="/bio">
+                <li className="hover:text-purple-800 hover:underline text-xl">
+                  Bio
+                </li>
+              </Link>
+              <Link href="/calendar">
+                <li className="hover:text-purple-800 hover:underline text-xl">
+                  Calendar
+                </li>
+              </Link>
+              <Link href="/contact">
+                <li className="hover:text-purple-800 hover:underline text-xl">
+                  Contact Us
+                </li>
+              </Link>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </>
   );
 }
