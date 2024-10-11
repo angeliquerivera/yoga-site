@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 export default function Bio() {
   return (
     <>
-      <main className="caret-transparent no-outline">
+      <main>
         <div className="flex flex-row items-center gap-4">
           <div>
             <Image

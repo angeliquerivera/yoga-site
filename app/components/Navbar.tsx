@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="bg-violet-400 p-0 caret-transparent no-outline">
+      <header className="bg-violet-400 p-0">
         <nav className="flex justify-between place-items-baseline">
           <div className="flex items-baseline">
             <Image

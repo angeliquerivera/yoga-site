@@ -4,7 +4,7 @@ import "tailwindcss/tailwind.css";
 
 export default function Calendar() {
   return (
-    <main className="caret-transparent no-outline">
+    <main>
       <h2>Upcoming Events</h2>
     </main>
   );
