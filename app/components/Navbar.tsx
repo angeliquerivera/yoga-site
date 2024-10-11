@@ -17,18 +17,19 @@ export default function Navbar() {
   return (
     <>
       <header className="bg-violet-400 p-0 caret-transparent no-outline">
-        <nav className="flex justify-between items-baseline">
-          <div>
+        <nav className="flex justify-between place-items-baseline">
+          <div className="flex items-baseline">
             <Image
               src={omsymbol}
               alt="omsymbol"
               className="h-16 w-16 rounded-full aspect-square object-cover"
             />
-            <span className="text-purple-800 text-lg font-bold">
+            <span className="text-purple-800 text-2xl">
               Inner Peace Outer Strength
             </span>
           </div>
-          <div className="justify-between">
+
+          <div className="flex-col">
             <ul className="flex-wrap flex gap-6">
               <Link href="/">
                 <li className="hover:text-purple-800 hover:underline text-xl">
