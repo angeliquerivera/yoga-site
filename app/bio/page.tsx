@@ -1,4 +1,5 @@
 import React from "react";
+import Quotes from "../components/Quotes";
 import Image from "next/image";
 import biopic from "../public/biopic.jpg";
 import biopic2 from "../public/biopic2.jpg";
@@ -57,6 +58,7 @@ export default function Bio() {
               </ol>
             </blockquote>
           </div>
+
           <div>
             <Image
               src={biopic2}
@@ -67,6 +69,7 @@ export default function Bio() {
             />
           </div>
         </div>
+        <Quotes />
       </main>
     </>
   );
