@@ -18,7 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-l bg-violet-300">
+      <body
+        className={`${monsterrat.className} bg-gradient-to-l bg-violet-300`}
+      >
         <Navbar />
         {children}
       </body>

@@ -30,7 +30,7 @@ export default function Navbar() {
           </div>
 
           <div className="flex-col">
-            <ul className="flex-wrap flex gap-6">
+            <ul className="flex-wrap flex gap-4">
               <Link href="/">
                 <li className="hover:text-purple-800 hover:underline text-xl">
                   Home
