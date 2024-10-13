@@ -10,16 +10,9 @@ export default function Bio() {
     <>
       <main>
         <div className="flex flex-row items-center gap-4">
-          <ResponsiveImage
-            src="/public/biopic.jpg"
-            alt=""
-            layout="responsive"
-            width={650}
-            height={300}
-            className="rounded-full aspect-square object-cover mb-4"
-          />
+          <ResponsiveImage src="/public/biopic.jpg" alt="" />
           <div className="flex flex-col gap-2">
-            <p>
+            <p className="text-xl">
               I have been a correction officer, working in NY State and county
               prisons for 20 years. 14 years ago, desperate to find a healthy
               outlet and relieve the stresses of my job, I turned to yoga. I had
@@ -39,26 +32,21 @@ export default function Bio() {
               of yoga.
             </p>
             <blockquote>
-              <p className="indent-6">
+              <p className="text-xl indent-6">
                 My goals are to help people understand:
               </p>
               <ol>
-                <li className="indent-14">
+                <li className="text-xl indent-14">
                   1. EVERYONE AND ANYONE can do yoga
                 </li>
-                <li className="indent-14">2. The MANY benefits of yoga</li>
+                <li className="text-xl indent-14">
+                  2. The MANY benefits of yoga
+                </li>
               </ol>
             </blockquote>
           </div>
 
-          <ResponsiveImage
-            src="/public/biopic.jpg"
-            alt=""
-            layout="responsive"
-            width={650}
-            height={300}
-            className="rounded-full aspect-square object-cover mb-4"
-          />
+          <ResponsiveImage src="/public/biopic.jpg" alt="" />
         </div>
         <Quotes />
       </main>
