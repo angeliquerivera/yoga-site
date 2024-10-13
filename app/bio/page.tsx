@@ -1,30 +1,23 @@
 import React from "react";
 import Quotes from "../components/Quotes";
-import Image from "next/image";
-import biopic from "../public/biopic.jpg";
-import biopic2 from "../public/biopic2.jpg";
+import ResponsiveImage from "../components/ResponsiveImage";
+// import biopic from "../public/biopic.jpg";
 import "../styles.css";
 import "tailwindcss/tailwind.css";
-
-// const montserrat = Montserrat({
-//   weight: "400",
-//   preload: false,
-// });
 
 export default function Bio() {
   return (
     <>
       <main>
         <div className="flex flex-row items-center gap-4">
-          <div>
-            <Image
-              src={biopic}
-              alt="biopic"
-              width="1600"
-              height="1200"
-              className="rounded-full aspect-square object-cover"
-            />
-          </div>
+          <ResponsiveImage
+            src="/public/biopic.jpg"
+            alt=""
+            layout="responsive"
+            width={650}
+            height={300}
+            className="rounded-full aspect-square object-cover mb-4"
+          />
           <div className="flex flex-col gap-2">
             <p>
               I have been a correction officer, working in NY State and county
@@ -58,15 +51,14 @@ export default function Bio() {
             </blockquote>
           </div>
 
-          <div>
-            <Image
-              src={biopic2}
-              alt="biopic2"
-              width="1800"
-              height="1000"
-              className="rounded-full aspect-square object-cover"
-            />
-          </div>
+          <ResponsiveImage
+            src="/public/biopic.jpg"
+            alt=""
+            layout="responsive"
+            width={650}
+            height={300}
+            className="rounded-full aspect-square object-cover mb-4"
+          />
         </div>
         <Quotes />
       </main>
