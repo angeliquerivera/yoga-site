@@ -1,8 +1,9 @@
 import React from "react";
+import Image from "next/image";
 import Quotes from "../components/Quotes";
-import ResponsiveImage from "../components/ResponsiveImage";
-// import biopic from "../public/biopic.jpg";
-import "../styles.css";
+// import ResponsiveImage from "../components/ResponsiveImage";
+import biopic from "../public/biopic.jpg";
+import biopic2 from "../public/biopic2.jpg";
 import "tailwindcss/tailwind.css";
 
 export default function Bio() {
@@ -10,9 +11,17 @@ export default function Bio() {
     <>
       <main>
         <div className="flex flex-row items-center gap-4">
-          <ResponsiveImage src="/public/biopic.jpg" alt="" />
+          <div className="relative w-full">
+            {" "}
+            <Image
+              src={biopic}
+              alt="biopic"
+              layout="responsive"
+              className="rounded-full aspect-square object-cover min-w-[300px] min-h-[200px] max-w-[100%] max-h-[400px]"
+            />
+          </div>
           <div className="flex flex-col gap-2">
-            <p className="text-xl">
+            <p className="text-base md:text-lg lg:text-xl">
               I have been a correction officer, working in NY State and county
               prisons for 20 years. 14 years ago, desperate to find a healthy
               outlet and relieve the stresses of my job, I turned to yoga. I had
@@ -32,21 +41,25 @@ export default function Bio() {
               of yoga.
             </p>
             <blockquote>
-              <p className="text-xl indent-6">
-                My goals are to help people understand:
-              </p>
+              <p>My goals are to help people understand:</p>
               <ol>
-                <li className="text-xl indent-14">
+                <li className="text-base md:text-lg  indent-14">
                   1. EVERYONE AND ANYONE can do yoga
                 </li>
-                <li className="text-xl indent-14">
+                <li className="text-base md:text-lg lg:text-xl indent-14">
                   2. The MANY benefits of yoga
                 </li>
               </ol>
             </blockquote>
           </div>
-
-          <ResponsiveImage src="/public/biopic.jpg" alt="" />
+          <div className="relative w-full">
+            <Image
+              src={biopic2}
+              alt="biopic2"
+              layout="responsive"
+              className="rounded-full aspect-square object-cover min-w-[300px] min-h-[200px] max-w-[100%] max-h-[400px]"
+            />
+          </div>
         </div>
         <Quotes />
       </main>
