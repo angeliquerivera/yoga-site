@@ -1,6 +1,5 @@
 import React from "react";
 import YingYangDresses from "../components/YingYangDresses";
-import OfficerYogiImage from "../components/OfficerYogiImage";
 import Quotes from "../components/Quotes";
 import "tailwindcss/tailwind.css";
 

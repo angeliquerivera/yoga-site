@@ -8,7 +8,7 @@ export default function YingYangDresses() {
       <Image
         src={biopic}
         alt="biopic"
-        className="rounded-lg aspect-square object-cover object-center min-w-[300px] min-h-[200px] max-w-[100%] max-h-[750px]"
+        className="rounded-lg aspect-square object-cover object-center min-w-[300px] min-h-[200px] max-w-[100%] max-h-[900px]"
       />
     </div>
   );
