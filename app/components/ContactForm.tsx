@@ -1,68 +1,77 @@
+"use client";
+
 import React, { useState } from "react";
 import "../styles.css";
 import "tailwindcss/tailwind.css";
 
-export default function ContactForm() {
+const ContactForm: React.FC = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [status, setStatus] = useState("");
+  const [result, setResult] = useState("");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setStatus("");
+    setResult("");
+
+    try {
+      const response = await fetch("/api/contact/contactRoute", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      if (response.ok) {
+        setResult("Message sent successfully!");
+        setName("");
+        setEmail("");
+        setMessage("");
+      } else {
+        const data = await response.json();
+        setResult(data.error || "An error occurred. Please try again.");
+      }
+    } catch (error) {
+      console.error("Submission error:", error);
+      setResult("An error occurred while submitting the form.");
+    }
   };
 
-  const response = await fetch('/api/contact/contactRoute', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ name, email, message }),
-  });
-
-  if (response.ok) {
-    setStatus('Message sent successfully!');
-    setName('');
-    setEmail('');
-    setMessage('');
-  } else {
-    const data = await response.json();
-    setStatus(data.error || 'An error occurred. Please try again.');
-  }
+  return (
+    <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+      <input
+        type="text"
+        placeholder="Name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        required
+        className="w-full h-12 text-black  placeholder-gray-700 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-violet-600 focus:outline-none pl-4 mb-10"
+      />
+      <input
+        type="email"
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        required
+        className="w-full h-12 text-black  placeholder-gray-700 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border  border-violet-600  focus:outline-none pl-4 mb-10"
+      />
+      <textarea
+        placeholder="Type your message here..."
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+        required
+        className="w-full h-20 placeholder-gray-700 text-black shadow-sm bg-transparent text-lg font-normal leading-10 rounded-full border  border-violet-600  focus:outline-none pl-4 mb-16"
+      ></textarea>
+      <button
+        type="submit"
+        className="bg-purple-600 text-pink-300 p-2 text-base font-semibold leading-6 rounded-full"
+      >
+        Send
+      </button>
+      {result && <p className="text-red-500">{result}</p>}
+    </form>
+  );
 };
 
-  return (
-    <>
-      <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
-        <input
-          type="text"
-          placeholder="Name"
-          value="name"
-          onChange={(e) => setName(e.target.value)}
-          required
-          className="w-full h-12 text-purple-800 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
-        />
-        <input
-          type="email"
-          placeholder="Email"
-          value="email"
-          onChange={(e) => setEmail(e.target.value)}
-          required
-          className="w-full h-12 text-purple-800 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
-        />
-        <textarea
-          placeholder="Type your message here..."
-          value="message"
-          onChange={(e) => setMessage(e.target.value)}
-          required
-          className="w-full h-32 text-purple-800 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
-        ></textarea>
-        <button type="submit" className="bg-purple-600 text-pink-300 p-2">
-          Send
-        </button>
-      </form>
-      {status && <p className="text-red-500">{status}</p>}
-    </>
-  );
-}
+export default ContactForm;
