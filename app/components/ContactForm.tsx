@@ -40,13 +40,14 @@ const ContactForm: React.FC = () => {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+      <h1 className="text-2xl font-bold">Comments or Ideas?</h1>
       <input
         type="text"
         placeholder="Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
         required
-        className="w-full h-12 text-black  placeholder-gray-700 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-violet-600 focus:outline-none pl-4 mb-10"
+        className="w-full h-12 text-black  placeholder-gray-500 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-md border border-violet-600 focus:outline-none pl-4 mb-10"
       />
       <input
         type="email"
@@ -54,14 +55,14 @@ const ContactForm: React.FC = () => {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
-        className="w-full h-12 text-black  placeholder-gray-700 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border  border-violet-600  focus:outline-none pl-4 mb-10"
+        className="w-full h-12 text-black  placeholder-gray-500 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-md border  border-violet-600  focus:outline-none pl-4 mb-10"
       />
       <textarea
         placeholder="Type your message here..."
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         required
-        className="w-full h-20 placeholder-gray-700 text-black shadow-sm bg-transparent text-lg font-normal leading-10 rounded-full border  border-violet-600  focus:outline-none pl-4 mb-16"
+        className="w-full h-20 placeholder-gray-500 text-black shadow-sm bg-transparent text-lg font-normal leading-10 rounded-md border  border-violet-600  focus:outline-none pl-4 mb-16"
       ></textarea>
       <button
         type="submit"
