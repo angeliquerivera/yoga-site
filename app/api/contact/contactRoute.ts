@@ -1,8 +1,14 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
+interface ContactFormData {
+  name: string;
+  email: string;
+  message: string;
+}
+
 const contactHandler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === "POST") {
-    const { name, email, message } = req.body;
+    const { name, email, message }: ContactFormData = req.body;
 
     if (!name || !email || !message) {
       return res.status(400).json({ error: "All fields are required" });

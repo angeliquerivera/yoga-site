@@ -9,7 +9,7 @@ import "tailwindcss/tailwind.css";
 
 export default function ContactInfo() {
   return (
-    <div className="flex flex-col items-center p-6 bg-gray-100 rounded shadow-lg">
+    <div className="w-full flex flex-col items-center rounded shadow-md">
       <h2 className="text-2xl font-bold mb-4">Contact Info</h2>
       <div className="flex flex-col items-start mb-4">
         <div className="flex items-center mb-2">
@@ -31,19 +31,19 @@ export default function ContactInfo() {
             </a>
           </span>
         </div>
-      </div>
-      <div className="flex items-center mb-2">
-        <FontAwesomeIcon icon={faInstagram} className="text-pink-500 mr-1" />
-        <span>
-          <a
-            href="https://instagram.com/innerpeace_outerstrengthLLC"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600"
-          >
-            innerpeace_outerstrengthLLC
-          </a>
-        </span>
+        <div className="flex items-center mb-2">
+          <FontAwesomeIcon icon={faInstagram} className="text-pink-500 mr-1" />
+          <span>
+            <a
+              href="https://instagram.com/innerpeace_outerstrengthLLC"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600"
+            >
+              innerpeace_outerstrengthLLC
+            </a>
+          </span>
+        </div>
       </div>
     </div>
   );
