@@ -24,8 +24,8 @@ export default function Navbar() {
               alt="omsymbol"
               className="h-16 w-16 rounded-full aspect-square object-cover"
             />
-            <span className="text-purple-800 text-2xl">
-              Inner Peace Outer Strength
+            <span className="text-purple-800 text-2xl font-extrabold">
+              Inner Peace & Outer Strength LLC
             </span>
           </div>
 
