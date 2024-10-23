@@ -66,14 +66,14 @@ export default function ContactForm() {
         onChange={(e) => setMessage(e.target.value)}
         required
         className="w-full h-40 placeholder-gray-500 text-black shadow-sm bg-transparent text-lg font-normal leading-10 rounded-md border  border-violet-600  focus:outline-none pl-4 mb-16"
-      ></textarea>
+      />
       <button
         type="submit"
         className="bg-purple-600 text-pink-300 p-2 text-base font-semibold leading-6 rounded-full"
       >
         Send
       </button>
-      {result && <p className="text-red-500">{result}</p>}
+      {result && <p className="text-blue-700">{result}</p>}
     </form>
   );
 }

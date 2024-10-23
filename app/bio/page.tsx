@@ -32,7 +32,7 @@ export default function Bio() {
             Teacher trainings, to further my own practice, and to expand my
             knowledge of the many benefits of various styles of yoga.
             <ol>
-              <li className="text-base md:text-lg lg:text-xl p-2 -indent-2">
+              <li className="text-base md:text-lg lg:text-xl p-2">
                 My goals are to help people understand:{" "}
               </li>
               <li className="text-base md:text-lg lg:text-xl font-semibold indent-12">
@@ -42,7 +42,7 @@ export default function Bio() {
                 2. The MANY benefits of yoga
               </li>
             </ol>
-          </p>{" "}
+          </p>
         </div>
 
         <div className="flex flex-row justify-center p-10">
