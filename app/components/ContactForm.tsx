@@ -50,7 +50,7 @@ export default function ContactForm() {
         value={name}
         onChange={(e) => setName(e.target.value)}
         required
-        className="w-full h-16 text-black  placeholder-gray-500 shadow-sm bg-transparent text-lg font-normal leading-4 rounded-md border border-violet-600 focus:outline-none pl-4 mb-4"
+        className="w-full h-16 text-black  placeholder-violet-900  shadow-sm bg-transparent text-lg font-normal leading-4 rounded-lg border border-purple-950 focus:outline-none pl-4 mb-4"
       />
       <input
         type="email"
@@ -58,14 +58,14 @@ export default function ContactForm() {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
-        className="w-full h-16 text-black  placeholder-gray-500 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-md border  border-violet-600  focus:outline-none pl-4 mb-10"
+        className="w-full h-16 text-black  placeholder-violet-900 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-md border  border-purple-950  focus:outline-none pl-4 mb-10"
       />
       <textarea
         placeholder="Type your message here..."
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         required
-        className="w-full h-40 placeholder-gray-500 text-black shadow-sm bg-transparent text-lg font-normal leading-10 rounded-md border  border-violet-600  focus:outline-none pl-4 mb-16"
+        className="w-full h-40 placeholder-violet-900  text-black shadow-sm bg-transparent text-lg font-normal leading-10 rounded-md border  border-purple-950  focus:outline-none pl-4 mb-16"
       />
       <button
         type="submit"
@@ -73,7 +73,7 @@ export default function ContactForm() {
       >
         Send
       </button>
-      {result && <p className="text-blue-700">{result}</p>}
+      {result && <p className="text-orange-400">{result}</p>}
     </form>
   );
 }
