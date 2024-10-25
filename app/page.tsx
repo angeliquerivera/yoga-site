@@ -9,9 +9,7 @@ export default function Home() {
   return (
     <main>
       <BackgroundImage imageSrc={contactbackground}>
-        <div>
-          <Hero />
-        </div>
+        <Hero />
       </BackgroundImage>
     </main>
   );
