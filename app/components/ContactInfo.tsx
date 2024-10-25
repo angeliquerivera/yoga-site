@@ -9,7 +9,7 @@ import "tailwindcss/tailwind.css";
 
 export default function ContactInfo() {
   return (
-    <div className="w-full flex flex-col items-center bg-opacity-70">
+    <div className="w-full flex flex-col items-center bg-opacity-25">
       <h2 className="text-2xl font-bold mb-4">Contact Info</h2>
       <div className="flex flex-col items-start mb-4">
         <div className="flex items-center mb-2">
