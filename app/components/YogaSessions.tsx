@@ -14,22 +14,22 @@ const sessionTypes: SessionType[] = [
   {
     title: "Beginners Yoga",
     description: "A gentle introduction to basic yoga postures",
-    icon: <TbYoga className="w-8 h-8 text-purple-600" />,
+    icon: <TbYoga className="w-14 h-14 mb-2 text-purple-600" />,
   },
   {
     title: "Chair Yoga",
     description: "Yoga stretches while seated in a chair",
-    icon: <PiChairDuotone className="w-8 h-8 text-purple-600" />,
+    icon: <PiChairDuotone className="w-14 h-14 mb-2 text-purple-600" />,
   },
   {
     title: "Restorative Yoga",
     description: "Passive stretching and relaxation to enhance your well-being",
-    icon: <PiFlowerLotusDuotone className="w-8 h-8 text-purple-600" />,
+    icon: <PiFlowerLotusDuotone className="w-14 h-14 mb-2 text-purple-600" />,
   },
   {
     title: "Yin & Slow Flow Yoga",
     description: "Breath awareness and mindfulness while posing.",
-    icon: <FaYinYang className="w-8 h-8 text-purple-600" />,
+    icon: <FaYinYang className="w-12 h-12 mb-4 text-purple-600" />,
   },
 ];
 
@@ -42,13 +42,10 @@ export default function YogaSessions() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {sessionTypes.map((yoga, index) => (
-            <div
-              key={index}
-              className=" shadow-black rounded-lg p-6 text-center"
-            >
-              <div className="mb-4">{yoga.icon}</div>
+            <div key={index} className="rounded-lg p-6 text-center">
+              <div className="flex justify-center">{yoga.icon}</div>
               <h3 className="text-xl font-semibold">{yoga.title}</h3>
-              <p className="text-purple-950">{yoga.description}</p>
+              <p className="text-purple-950 mt-2">{yoga.description}</p>
             </div>
           ))}
         </div>
