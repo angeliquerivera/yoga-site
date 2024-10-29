@@ -11,7 +11,7 @@ export default function Contact() {
     <main>
       <BackgroundImage imageSrc={contactbackground}>
         <div className="min-h-screen flex items-center justify-center p-4">
-          <div className="flex flex-col md:flex-row space-x-4 w-full h-full">
+          <div className="flex flex-col md:flex-row space-x-2 w-auto h-auto">
             <ContactInfo />
             <ContactForm />
           </div>

@@ -7,9 +7,9 @@ interface QuoteProps {
   author: string;
 }
 
-export default function Quote({ text, author }) {
+export default function Quote({ text, author }: QuoteProps) {
   return (
-    <blockquote className="mb-10 p-12 border-l-8 border-purple-600 bg-purple-300">
+    <blockquote className="mb-10 p-12">
       <p className="text-lg italic montserrat text-gray-700">"{text}"</p>
       <footer className="mt-2 text-right text-gray-600">— {author}</footer>
     </blockquote>
