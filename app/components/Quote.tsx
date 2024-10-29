@@ -7,7 +7,7 @@ interface QuoteProps {
   author: string;
 }
 
-export default function Quote({ text, author }) {
+export default function Quote({ text, author }: QuoteProps) {
   return (
     <blockquote className="mb-10 p-12 bg-transparent">
       <p className="text-lg italic montserrat text-gray-700">"{text}"</p>
