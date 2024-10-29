@@ -41,11 +41,11 @@ export default function YogaSessions() {
           Sessions Offered
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {sessionTypes.map((yoga, index) => (
+          {sessionTypes.map(({ icon, title, description }, index) => (
             <div key={index} className="rounded-lg p-6 text-center">
-              <div className="flex justify-center">{yoga.icon}</div>
-              <h3 className="text-xl font-semibold">{yoga.title}</h3>
-              <p className="text-purple-950 mt-2">{yoga.description}</p>
+              <div className="flex justify-center">{icon}</div>
+              <h3 className="text-xl font-semibold">{title}</h3>
+              <p className="text-purple-950 mt-2">{description}</p>
             </div>
           ))}
         </div>
