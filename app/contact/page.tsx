@@ -1,6 +1,6 @@
 import React from "react";
-import ContactForm from "../components/ContactForm";
-import ContactInfo from "../components/ContactInfo";
+import ContactForm from "./components/ContactForm";
+import ContactInfo from "./components/ContactInfo";
 import BackgroundImage from "../components/BackgroundImage";
 import contactbackground from "../public/contactbackground.jpg";
 import "../styles.css";

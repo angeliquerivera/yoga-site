@@ -1,8 +1,8 @@
 import React from "react";
 import BackgroundImage from "../components/BackgroundImage";
 import contactbackground from "../public/contactbackground.jpg";
-import YingYangDresses from "../components/YingYangDresses";
-import Quotes from "../components/Quotes";
+import YingYangDresses from "./components/YingYangDresses";
+import Quotes from "./components/Quotes";
 import "tailwindcss/tailwind.css";
 
 export default function Bio() {
