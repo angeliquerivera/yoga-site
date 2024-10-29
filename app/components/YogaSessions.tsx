@@ -33,7 +33,7 @@ const sessionTypes: SessionType[] = [
   },
 ];
 
-export default function SessionTypes() {
+export default function YogaSessions() {
   return (
     <section className="py-16 bg-gradient-to-t from-purple-400">
       <div className="max-w-7xl mx-auto px-4">
