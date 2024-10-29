@@ -1,5 +1,5 @@
 import React from "react";
-import Quote from "../components/Quote";
+import Quote from "./Quote";
 import quote from "../data/quote.data";
 
 export default function Quotes() {
