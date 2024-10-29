@@ -27,7 +27,7 @@ const sessionTypes: SessionType[] = [
     icon: <PiFlowerLotusDuotone className="w-8 h-8 text-purple-600" />,
   },
   {
-    title: "Yin and Slow Flow Yoga",
+    title: "Yin & Slow Flow Yoga",
     description: "Breath awareness and mindfulness while posing.",
     icon: <FaYinYang className="w-8 h-8 text-purple-600" />,
   },
@@ -35,7 +35,7 @@ const sessionTypes: SessionType[] = [
 
 export default function SessionTypes() {
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-gradient-to-t from-purple-400">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">
           Sessions Offered
@@ -44,7 +44,7 @@ export default function SessionTypes() {
           {sessionTypes.map((yoga, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg p-6 text-center"
+              className=" shadow-black rounded-lg p-6 text-center"
             >
               <div className="mb-4">{yoga.icon}</div>
               <h3 className="text-xl font-semibold">{yoga.title}</h3>
