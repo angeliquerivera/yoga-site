@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import biopic from "../public/biopic.jpg";
+import biopic from "../../public/biopic.jpg";
 
 export default function YingYangDresses() {
   return (
