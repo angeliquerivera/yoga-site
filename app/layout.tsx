@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import Navbar from "./components/Navbar";
-import "./styles.css";
+import "./styles/styles.css";
 import "tailwindcss/tailwind.css";
 
 const monsterrat = Montserrat({ subsets: ["latin"] });

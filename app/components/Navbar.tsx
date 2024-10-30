@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import omsymbol from "../public/omsymbol.jpeg";
-import "../styles.css";
+import "../styles/styles.css";
 import "tailwindcss/tailwind.css";
 
 export default function Navbar() {

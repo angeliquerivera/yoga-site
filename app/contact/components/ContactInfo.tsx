@@ -4,7 +4,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import "../styles.css";
+import "../../styles/styles.css";
 import "tailwindcss/tailwind.css";
 
 export default function ContactInfo() {

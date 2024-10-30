@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import BackgroundImage from "./components/BackgroundImage";
 import contactbackground from "./public/contactbackground.jpg";
 import YogaSessions from "./components/YogaSessions";
-import "./styles.css";
+import "./styles/styles.css";
 import "tailwindcss/tailwind.css";
 
 export default function Home() {

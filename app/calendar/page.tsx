@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles.css";
+import "../styles/styles.css";
 import "tailwindcss/tailwind.css";
 import BackgroundImage from "../components/BackgroundImage";
 import contactbackground from "../public/contactbackground.jpg";

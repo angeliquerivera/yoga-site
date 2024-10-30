@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import "../styles.css";
+import "../../styles/styles.css";
 import "tailwindcss/tailwind.css";
 
 export default function ContactForm() {
