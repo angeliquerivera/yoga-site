@@ -9,6 +9,7 @@ interface Event {
   price: string;
 }
 export default function EventCard({
+  id,
   title,
   date,
   description,
