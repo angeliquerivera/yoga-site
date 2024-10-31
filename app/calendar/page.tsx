@@ -51,14 +51,12 @@ const eventsData = [
 export default function Calendar() {
   return (
     <main className="min-h-screen">
-      <BackgroundImage imageSrc={contactbackground}>
-        <div>
-          <EventList events={eventsData} />
-        </div>
-        <div className="flex items-center">
-          <h3 className="font-bold">**Space is limited for all workshops**</h3>
-        </div>
-      </BackgroundImage>
+      <div>
+        <EventList events={eventsData} />
+      </div>
+      <div className="flex items-center">
+        <h3 className="font-bold">**Space is limited for all workshops**</h3>
+      </div>
     </main>
   );
 }

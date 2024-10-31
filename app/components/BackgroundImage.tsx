@@ -3,15 +3,15 @@ import Image from "next/image";
 
 export default function BackgroundImage({ children, imageSrc }) {
   return (
-    <div className="relative h-screen">
+    <div className="min-h-screen">
       <Image
         src={imageSrc}
         alt="Background"
         layout="fill"
         objectFit="cover"
-        className="opacity-20"
+        className="opacity-30"
       />
-      <div className="absolute inset-0 bg-opacity-20">{children}</div>
+      <div className="absolute inset-0">{children}</div>
     </div>
   );
 }
