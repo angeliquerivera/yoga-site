@@ -2,27 +2,52 @@ import React from "react";
 
 interface Event {
   id: number;
-  title: string;
   date: string;
+  title: string;
   description: string;
   location: string;
+  googleMapsUrl: string;
+  time: string;
   price: string;
+  rsvpDeadline: string;
+  googleCalendarUrl: string;
 }
 export default function EventCard({
   id,
-  title,
   date,
+  title,
   description,
   location,
+  googleMapsUrl,
+  time,
   price,
+  rsvpDeadline,
+  googleCalendarUrl,
 }: Event) {
   return (
-    <div className="p-4 border rounded shadow hover:shadow-lg transition">
-      <h2 className="text-xl font-semibold">{title}</h2>
-      <p className="text-gray-600">{date}</p>
-      <p className="text-gray-500">{location}</p>
+    <div className="p-4  border-violet-800 border-4 rounded shadow hover:shadow-lg transition ">
+      <p className="text-green-800 text-2xl">{date}</p>
+      <h2 className="text-xl font-bold text-red-700">{title}</h2>
+      <a
+        href={googleMapsUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-900 underline"
+      >
+        {location}
+      </a>
+      <p>{time}</p>
       <p className="mt-2">{description}</p>
       <p className="mt-2">{price}</p>
+      <p className="mt-2 font-bold">RSVP by: {rsvpDeadline}</p>
+      <a
+        href={googleCalendarUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-2 inline-block text-white bg-purple-800 hover:bg-purple-400 px-4 py-2 rounded"
+      >
+        Add to Google Calendar
+      </a>
     </div>
   );
 }
