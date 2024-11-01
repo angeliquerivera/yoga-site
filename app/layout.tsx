@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import Navbar from "./components/Navbar";
-import BackgroundImage from "./components/BackgroundImage";
-import backgroundmandala from "./public/backgroundmandala.jpg";
+import mandalahands from "./public/mandalahands.jpg";
 import "./styles/styles.css";
 import "tailwindcss/tailwind.css";
 
@@ -20,12 +19,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {" "}
-      <body className={`${monsterrat.className}`}>
-        <BackgroundImage imageSrc={backgroundmandala}>
-          <Navbar />
-          {children}
-        </BackgroundImage>
+      <body
+        className={`${monsterrat.className} min-h-s bg-primary bg-cover bg-center`}
+        style={{
+          backgroundImage: "url(${mandalahands})",
+        }}
+      >
+        <Navbar />
+        {children}
       </body>
     </html>
   );
