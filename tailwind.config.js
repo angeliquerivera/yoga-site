@@ -13,9 +13,6 @@ module.exports = {
       fontFamily: {
         serif: ["Montserrat"],
       },
-      backgroundImage: {
-        mandalaImg: "url('/mandala.jpg')",
-      },
     },
   },
   plugins: [],
