@@ -18,7 +18,7 @@ const eventsData = [
     price: "$20.00 per person",
     rsvpDeadline: "Dec 4th",
     googleCalendarUrl:
-      "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Holistic+Holiday+HoeDown!&dates=20241219T000000Z/20241219T023000Z&details=Celebrate+the+holidays+with+a+fusion+of+Vinyasa+Yoga+%26+line+dancing+to+holiday-themed+country+music!+Activities+followed+by+snacks,+beverages,+and+raffles.+90+min+class,+suitable+for+all+levels+of+fitness.&location=Residence+Inn+White+Plains",
+      "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Holistic+Holiday+HoeDown!&dates=20241207T000000Z/20241207T023000Z&details=Celebrate+the+holidays+with+a+fusion+of+Vinyasa+Yoga+%26+line+dancing+to+holiday-themed+country+music!+Activities+followed+by+snacks,+beverages,+and+raffles.+90+min+class,+suitable+for+all+levels+of+fitness.&location=Residence+Inn+White+Plains",
   },
   {
     id: 2,
