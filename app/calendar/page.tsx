@@ -9,14 +9,14 @@ const eventsData = [
   {
     id: 1,
     title: "Holistic Holiday HoeDown!",
-    date: "12-19-2024",
+    date: "12-07-2024",
     description:
       "Celebrate the holidays with a fusion of Vinyasa Yoga & line dancing to holiday-themed country music! Activities followed by snacks, beverages, and raffles. 90 min class, suitable for all levels of fitness",
     location: "Residence Inn White Plains",
     googleMapsUrl: "https://g.co/kgs/aPQbBgo",
     time: "7:00pm-9:30pm",
     price: "$20.00 per person",
-    rsvpDeadline: "Dec 16th",
+    rsvpDeadline: "Dec 4th",
     googleCalendarUrl:
       "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Holistic+Holiday+HoeDown!&dates=20241219T000000Z/20241219T023000Z&details=Celebrate+the+holidays+with+a+fusion+of+Vinyasa+Yoga+%26+line+dancing+to+holiday-themed+country+music!+Activities+followed+by+snacks,+beverages,+and+raffles.+90+min+class,+suitable+for+all+levels+of+fitness.&location=Residence+Inn+White+Plains",
   },
