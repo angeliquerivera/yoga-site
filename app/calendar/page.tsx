@@ -33,19 +33,6 @@ const eventsData = [
     googleCalendarUrl:
       "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Holistic+Holiday+HoeDown!&dates=20241219T000000Z/20241219T023000Z&details=Celebrate+the+holidays+with+a+fusion+of+Vinyasa+Yoga+%26+line+dancing+to+holiday-themed+country+music!+Activities+followed+by+snacks,+beverages,+and+raffles.+90+min+class,+suitable+for+all+levels+of+fitness.&location=Residence+Inn+White+Plains",
   },
-  {
-    id: 3,
-    title: "Event Three",
-    date: "01-03-2025",
-    description: "This is the third event.",
-    location: "The Opus Westchester",
-    googleMapsUrl: "https://g.co/kgs/mNvxTng",
-    time: "7:00pm-9:30pm",
-    price: "$20.00 per person",
-    rsvpDeadline: "Dec 31st",
-    googleCalendarUrl:
-      "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Holistic+Holiday+HoeDown!&dates=20241219T000000Z/20241219T023000Z&details=Celebrate+the+holidays+with+a+fusion+of+Vinyasa+Yoga+%26+line+dancing+to+holiday-themed+country+music!+Activities+followed+by+snacks,+beverages,+and+raffles.+90+min+class,+suitable+for+all+levels+of+fitness.&location=Residence+Inn+White+Plains",
-  },
 ];
 
 export default function Calendar() {
