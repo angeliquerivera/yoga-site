@@ -17,3 +17,18 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.event-title {
+  color: darkred;
+}
+
+.third-event-title {
+  color: darkblue;
+}
+.event-date {
+  color: darkgreen;
+}
+
+.third-event-date {
+  color: dimgrey;
+}
