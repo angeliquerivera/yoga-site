@@ -16,3 +16,18 @@
     font-family: "Montserrat", sans-serif;
   }
 }
+
+.event-title {
+  color: darkred;
+}
+
+.third-event-title {
+  color: darkblue;
+}
+.event-date {
+  color: darkgreen;
+}
+
+.third-event-date {
+  color: dimgrey;
+}
