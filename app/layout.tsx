@@ -23,9 +23,7 @@ export default function RootLayout({
           className={`${monsterrat.className} bg-primary`}
           id="bg-custom-background"
         >
-          {" "}
-          <Navbar />
-          {children}
+          <Navbar /> {children}
         </div>
       </body>
     </html>
