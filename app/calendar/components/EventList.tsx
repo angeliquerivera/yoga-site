@@ -5,9 +5,7 @@ import "../../styles/styles.css";
 interface Event {
   id: number;
   date: string;
-  dateClass: string;
   title: string;
-  titleClass: string;
   description: string;
   location: string;
   googleMapsUrl: string;
