@@ -1,6 +1,4 @@
 import React from "react";
-import BackgroundImage from "../components/BackgroundImage";
-import contactbackground from "../public/contactbackground.jpg";
 import EventList from "./components/EventList";
 import "../styles/styles.css";
 import "tailwindcss/tailwind.css";
@@ -53,21 +51,19 @@ const eventsData = [
 export default function Calendar() {
   return (
     <main className="min-h-screen">
-      <BackgroundImage imageSrc={contactbackground}>
-        <div>
-          <EventList events={eventsData} />
-        </div>
-        <div className="flex justify-center">
-          <p className="font-bold text-lg">
-            **January 31st and February 1st events will be posted in 2 weeks**
-          </p>
-        </div>
-        <div className="flex justify-center">
-          <p className="font-bold text-lg">
-            *Space is limited for all workshops*
-          </p>
-        </div>
-      </BackgroundImage>
+      <div>
+        <EventList events={eventsData} />
+      </div>
+      <div className="flex justify-center">
+        <p className="font-bold text-lg">
+          **January 31st and February 1st events will be posted in 2 weeks**
+        </p>
+      </div>
+      <div className="flex justify-center">
+        <p className="font-bold text-lg">
+          *Space is limited for all workshops*
+        </p>
+      </div>
     </main>
   );
 }
