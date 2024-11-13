@@ -18,11 +18,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${monsterrat.className} bg-gradient-to-l bg-primary min-h-screen`}
-      >
-        <Navbar />
-        {children}
+      <body>
+        <div
+          className={`${monsterrat.className} bg-primary`}
+          id="bg-custom-background"
+        >
+          {" "}
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );
