@@ -26,8 +26,8 @@ export default function EventCard({
 }: Event) {
   return (
     <div className="p-4  border-violet-800 border-4 rounded shadow hover:shadow-lg transition ">
-      <p className="text-green-800 text-2xl">{date}</p>
-      <h2 className="text-xl font-bold text-red-700">{title}</h2>
+      <p className="text-2xl">{date}</p>
+      <h2 className="text-xl font-bold">{title}</h2>
       <a
         href={googleMapsUrl}
         target="_blank"
@@ -39,7 +39,7 @@ export default function EventCard({
       <p>{time}</p>
       <p className="mt-2">{description}</p>
       <p className="mt-2">{price}</p>
-      <p className="mt-2 font-bold">RSVP by: {rsvpDeadline}</p>
+      <p className="mt-2 font-bold">RSVP by phone by: {rsvpDeadline}</p>
       <a
         href={googleCalendarUrl}
         target="_blank"
