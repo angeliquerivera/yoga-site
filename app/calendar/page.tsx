@@ -48,7 +48,7 @@ const eventsData = [
   },
 ];
 
-export default function Calendar() {
+export default function Workshops() {
   return (
     <main className="min-h-screen">
       <div>
