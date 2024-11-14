@@ -6,7 +6,7 @@ import "tailwindcss/tailwind.css";
 const eventsData = [
   {
     id: 1,
-    title: "Holistic Holiday HoeDown!",
+    title: "Holistic Holiday HoeDown",
     date: "12-07-2024",
     description:
       "Celebrate the holidays with a fusion of Vinyasa Yoga & line dancing to holiday-themed country music! Activities followed by snacks, beverages, and raffles. 90 min class, suitable for all levels of fitness",

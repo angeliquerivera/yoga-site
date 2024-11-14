@@ -43,7 +43,9 @@ export default function EventCard({
       </a>
       <p>{time}</p>
       <p className="mt-2">{description}</p>
-      <p className="mt-2">{price}</p>
+      <p className="mt-2 font-semibold">
+        {price}- pay through Zelle by our phone number or cash
+      </p>
       <p className="mt-2 font-bold">RSVP by phone by: {rsvpDeadline}</p>
       <a
         href={googleCalendarUrl}
