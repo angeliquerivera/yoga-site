@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import omsymbol from "../public/omsymbol.jpeg";
+import yingyang from "../public/yingyang.jpg";
 import "../styles/styles.css";
 import "tailwindcss/tailwind.css";
 
@@ -16,14 +16,16 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-between place-items-baseline bg-violet-400 sticky top-0 z-50 lg:static ">
+      <nav className="flex justify-between place-items-baseline bg-violet-300 sticky top-0 z-50 lg:static ">
         <div className="flex items-baseline lg:flex align-text-bottom">
           <Image
-            src={omsymbol}
-            alt="omsymbol"
-            className="h-16 w-16 rounded-full aspect-square object-cover ml-2"
+            src={yingyang}
+            alt="yingyang"
+            width={60}
+            height={60}
+            className="mt-1 outline-4 outline-indigo-600 rounded-full ml-2"
           />
-          <span className="text-purple-900 text-2xl font-extrabold">
+          <span className="text-purple-900 text-xl font-extrabold">
             Inner Peace & Outer Strength LLC
           </span>
         </div>
@@ -33,7 +35,7 @@ export default function Navbar() {
           onClick={toggleMenu}
         >
           <svg
-            className="w-10 h-10"
+            className="w-7 h-7"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
