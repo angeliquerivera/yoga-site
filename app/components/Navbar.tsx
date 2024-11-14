@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import omsymbol from "../public/omsymbol.jpeg";
+import yingyang from "../public/yingyang.jpg";
 import "../styles/styles.css";
 import "tailwindcss/tailwind.css";
 
@@ -19,9 +19,9 @@ export default function Navbar() {
       <nav className="flex justify-between place-items-baseline bg-violet-400 sticky top-0 z-50 lg:static ">
         <div className="flex items-baseline lg:flex align-text-bottom">
           <Image
-            src={omsymbol}
-            alt="omsymbol"
-            className="h-16 w-16 rounded-full aspect-square object-cover ml-2"
+            src={yingyang}
+            alt="yingyang"
+            className="h-20 w-20  mt-2 outline-4 outline-transparent hover:outline-violet-800 rounded-full shadow-lg ml-2"
           />
           <span className="text-purple-900 text-2xl font-extrabold">
             Inner Peace & Outer Strength LLC
