@@ -21,7 +21,9 @@ export default function Navbar() {
           <Image
             src={yingyang}
             alt="yingyang"
-            className="h-20 w-20  mt-2 outline-4 outline-transparent hover:outline-violet-800 rounded-full shadow-lg ml-2"
+            width={100}
+            height={100}
+            className="mt-1 outline-4 outline-indigo-600 rounded-full ml-2"
           />
           <span className="text-purple-900 text-2xl font-extrabold">
             Inner Peace & Outer Strength LLC
