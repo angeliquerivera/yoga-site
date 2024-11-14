@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import "./styles/styles.css";
 import "tailwindcss/tailwind.css";
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body>
         <div className={`${monsterrat.className} custom-background`}>
           <Navbar /> {children}
+          <Footer />
         </div>
       </body>
     </html>
