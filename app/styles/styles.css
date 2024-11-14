@@ -18,27 +18,6 @@
   background-repeat: no-repeat;
 }
 
-.bio-custom-background {
-  background-image: url("../public/lightmandala.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.calendar-custom-background {
-  background-image: url("../public/lightmandala.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.contact-custom-background {
-  background-image: url("../public/lightmandala.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .event-title {
   color: darkred;
 }
