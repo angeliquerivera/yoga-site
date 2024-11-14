@@ -33,7 +33,7 @@ export default function Navbar() {
           onClick={toggleMenu}
         >
           <svg
-            className="w-10 h-8"
+            className="w-10 h-10"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -51,7 +51,7 @@ export default function Navbar() {
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } lg:flex flex-col lg:flex-row lg:space-x-2 space-y-2 lg:space-y-2 mr-4`}
+          } lg:flex flex-col lg:flex-row lg:space-x-6 space-y-4 lg:space-y-0 mr-4`}
         >
           <ul className="flex-wrap sm:flex gap-4">
             <Link href="/">
