@@ -16,16 +16,16 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-between place-items-baseline bg-violet-400 sticky top-0 z-50 lg:static ">
+      <nav className="flex justify-between place-items-baseline bg-violet-300 sticky top-0 z-50 lg:static ">
         <div className="flex items-baseline lg:flex align-text-bottom">
           <Image
             src={yingyang}
             alt="yingyang"
-            width={100}
-            height={100}
+            width={60}
+            height={60}
             className="mt-1 outline-4 outline-indigo-600 rounded-full ml-2"
           />
-          <span className="text-purple-900 text-2xl font-extrabold">
+          <span className="text-purple-900 text-xl font-extrabold">
             Inner Peace & Outer Strength LLC
           </span>
         </div>
