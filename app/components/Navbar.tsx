@@ -16,8 +16,8 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-between place-items-baseline bg-violet-300 sticky top-0 z-50 lg:static ">
-        <div className="flex items-baseline lg:flex align-text-bottom">
+      <nav className="flex justify-between place-items-center top-0 z-50 lg:static bg-primary bg-opacity-60 ">
+        <div className="flex items-center lg:flex align-text-bottom">
           <Image
             src={yingyang}
             alt="yingyang"
@@ -25,7 +25,7 @@ export default function Navbar() {
             height={60}
             className="mt-1 outline-4 outline-indigo-600 rounded-full ml-2"
           />
-          <span className="text-purple-900 text-xl font-extrabold">
+          <span className="text-purple-900 text-xl font-extrabold ml-2">
             Inner Peace & Outer Strength LLC
           </span>
         </div>
