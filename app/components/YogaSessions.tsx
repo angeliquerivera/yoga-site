@@ -35,7 +35,7 @@ const sessionTypes: SessionType[] = [
 
 export default function YogaSessions() {
   return (
-    <section className="py-16 bg-gradient-to-t from-purple-400">
+    <section className="py-16">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">
           Sessions Offered
