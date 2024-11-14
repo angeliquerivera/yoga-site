@@ -19,10 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div
-          className={`${monsterrat.className} bg-primary`}
-          id="bg-custom-background"
-        >
+        <div className={`${monsterrat.className} custom-background`}>
           <Navbar /> {children}
         </div>
       </body>

@@ -7,7 +7,7 @@ import "../styles/styles.css";
 export default function Hero() {
   return (
     <section className="relative bg-transparent p-8">
-      <div className="container mx-auto flex flex-col sm:flex-row items-center space-y-6 sm:space-y-0 sm:space-x-8 relative z-10 bg-purple-400 bg-opacity-50 bg-custom-background">
+      <div className="container mx-auto flex flex-col sm:flex-row items-center space-y-6 sm:space-y-0 sm:space-x-8 relative z-10 bg-purple-400 bg-opacity-50">
         <div className="p-6 flex flex-col space-y-6 sm:w-1/3 sm:space-y-10 sm:text-left  ">
           <h1 className="text-4xl font-bold text-center sm:text-5xl sm:text-left">
             Yoga For All

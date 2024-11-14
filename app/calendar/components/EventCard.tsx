@@ -30,7 +30,7 @@ export default function EventCard({
   googleCalendarUrl,
 }: Event) {
   return (
-    <div className="p-4  border-violet-800 border-4 rounded shadow hover:shadow-lg transition ">
+    <div className="p-4  border-violet-800 border-4 rounded shadow hover:shadow-lg transition bg-primary bg-opacity-50 ">
       <p className={`${dateClass} text-2xl`}>{date}</p>
       <h2 className={`${titleClass} text-xl font-bold`}>{title}</h2>
       <a

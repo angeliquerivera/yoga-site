@@ -10,11 +10,11 @@ export default function Bio() {
         <h2 className="text-justify text-4xl font-extrabold text-purple-900 indent-3 p-3">
           Meet Fredeswinda
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[10px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[10px] p-6">
           <div>
             <YingYangDresses />
           </div>
-          <p className="text-base md:text-lg lg:text-xl p-1">
+          <p className="text-base md:text-lg lg:text-xl p-4">
             I have been a correction officer, working in NY State and county
             prisons for 20 years. 14 years ago, desperate to find a healthy
             outlet and relieve the stresses of my job, I turned to yoga. I had
