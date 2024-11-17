@@ -12,9 +12,33 @@ export const metadata: Metadata = {
     template: "%s | Inner Peace & Outer Strength",
     default: "Inner Peace & Outer Strength",
   },
-  keywords: ["Inner", ""],
-  creator: 'Angelique Rivera',
-  }
+  description:
+    "The website for the yoga studio business Inner Peace & Outer Strength LLC",
+  keywords: [
+    "inner",
+    "peace",
+    "outer",
+    "strength",
+    "yoga",
+    "studio",
+    "wellness",
+    "beginner",
+    "chair",
+    "restorative",
+    "breathwork",
+    "yin",
+    "slow flow",
+    "holistic",
+    "assisted",
+    "stretching",
+    "mediation",
+    "Westchester",
+    "Fishkill",
+    "Dutchess",
+    "county",
+    "New York",
+  ],
+  creator: "Angelique Rivera",
 };
 
 export default function RootLayout({
