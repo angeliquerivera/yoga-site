@@ -16,10 +16,10 @@ export default function ContactInfo() {
           <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
           <span>
             <a
-              href="mailto:allthingsselfcare@gmail.com"
+              href="mailto:allthingsselfcare01@gmail.com"
               className="text-purple-950"
             >
-              allthingsselfcare@gmail.com
+              allthingsselfcare01@gmail.com
             </a>
           </span>
         </div>
