@@ -18,7 +18,7 @@ const sessionTypes: SessionType[] = [
   },
   {
     title: "Chair Yoga",
-    description: "Yoga stretches while seated in a chair",
+    description: "A low impact way to improve strength and flexibility",
     icon: <PiChairDuotone className="w-14 h-14 mb-2 text-purple-600" />,
   },
   {
@@ -36,12 +36,8 @@ const sessionTypes: SessionType[] = [
 export default function YogaSessions() {
   return (
     <section className="py-16">
-
-
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">
-          Sessions Offered
-        </h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Classes Offered</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {sessionTypes.map(({ icon, title, description }, index) => (
             <div key={index} className="rounded-lg p-6 text-center">
