@@ -41,7 +41,7 @@ const eventsData = [
     title: "New Year, New Outlook",
     date: "01-10-2025",
     description:
-      "Celebrate the New Year with breathwork followed by a 45 minute invigorating Yinyasa Yoga class and a 15 minute. Light snacks and beverages after.",
+      "Celebrate the New Year with breathwork followed by a 45 minute invigorating Yinyasa Yoga class and a 15 minute Savasana. Light snacks and beverages after.",
     location: "Residence Inn White Plains",
     googleMapsUrl: "https://maps.app.goo.gl/DX61euWwEaR4Hnh76",
     time: "7:00pm-9:30pm",
