@@ -1,8 +1,12 @@
 import React from "react";
+import type { Metadata } from "next";
 import EventList from "./components/EventList";
 import "../styles/styles.css";
 import "tailwindcss/tailwind.css";
 
+export const metadata: Metadata = {
+  title: "Calendar",
+};
 const eventsData = [
   {
     id: 1,
