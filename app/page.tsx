@@ -1,13 +1,14 @@
 import React from "react";
-import "./globals.css";
+import Hero from "./components/Hero";
+import YogaSessions from "./components/YogaSessions";
+import "./styles/styles.css";
 import "tailwindcss/tailwind.css";
 
 export default function Home() {
   return (
     <main>
-      <h1 className="text-3xl font-bold underline">
-        Inner Peace and Outer Strength
-      </h1>
+      <Hero />
+      <YogaSessions />
     </main>
   );
 }
