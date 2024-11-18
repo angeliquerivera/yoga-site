@@ -14,13 +14,13 @@ const eventsData = [
     date: "12-07-2024",
     description:
       "Celebrate the holidays with a fusion of Vinyasa Yoga & line dancing to holiday-themed country music! Activities followed by snacks, beverages, and raffles. 90 min class, suitable for all levels of fitness",
-    location: "Residence Inn White Plains",
-    googleMapsUrl: "https://g.co/kgs/aPQbBgo",
-    time: "7:00pm-9:30pm",
+    location: "The Opus Westchester",
+    googleMapsUrl: "https://g.co/kgs/xyiqkhu",
+    time: "4:00pm-6:00pm",
     price: "$20.00 per person",
     rsvpDeadline: "Dec 4th",
     googleCalendarUrl:
-      "https://www.google.com/calendar/render?action=TEMPLATE&text=Holistic+Holiday+HoeDown%21&dates=20241207T190000Z%2F20241207T213000Z&details=Celebrate+the+holidays+with+a+fusion+of+Vinyasa+Yoga+%26+line+dancing+to+holiday-themed+country+music%21+Activities+followed+by+snacks%2C+beverages%2C+and+raffles.+90+min+class%2C+suitable+for+all+levels+of+fitness.&location=Residence+Inn+White+Plains",
+      "https://www.google.com/calendar/render?action=TEMPLATE&text=Holistic+Holiday+HoeDown%21&dates=20241207T210000Z%2F20241207T230000Z&details=Celebrate+the+holidays+with+a+fusion+of+Vinyasa+Yoga+%26+line+dancing+to+holiday-themed+country+music%21+Activities+followed+by+snacks%2C+beverages%2C+and+raffles.+90+min+class%2C+suitable+for+all+levels+of+fitness.&location=The+Opus+Westchester",
   },
   {
     id: 2,
