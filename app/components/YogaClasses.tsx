@@ -21,7 +21,7 @@ const sessionTypes: ClassType[] = [
   {
     title: "Chair Yoga",
     description:
-      "A modified version of traditional yoga, using chair to perform postures while seared and to help with balance for standing postures.",
+      "A modified version of traditional yoga, using a chair to perform postures while seated and to help with balance for standing postures.",
     icon: <PiChairDuotone className="w-14 h-14 mb-2 text-purple-600" />,
   },
   {
