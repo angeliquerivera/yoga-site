@@ -15,13 +15,13 @@ const sessionTypes: ClassType[] = [
   {
     title: "Beginner Yoga",
     description:
-      "A introduction to basic yoga postures. This style is slower paced, and focuses on safe body alignment.",
+      "An introduction to basic yoga postures. This style is slower paced, and focuses on safe body alignment.",
     icon: <TbYoga className="w-14 h-14 mb-2 text-purple-600" />,
   },
   {
     title: "Chair Yoga",
     description:
-      "A modified version of traditional yoga, using a chair to perform postures while seated and to help with balance for standing postures.",
+      "A modified version of traditional yoga, using a chair to perform postures while seated and help with balance for standing postures.",
     icon: <PiChairDuotone className="w-14 h-14 mb-2 text-purple-600" />,
   },
   {
