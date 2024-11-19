@@ -4,13 +4,13 @@ import { PiChairDuotone } from "react-icons/pi";
 import { TbYoga } from "react-icons/tb";
 import { PiFlowerLotusDuotone } from "react-icons/pi";
 
-interface SessionType {
+interface ClassType {
   title: string;
   description: string;
   icon: JSX.Element;
 }
 
-const sessionTypes: SessionType[] = [
+const sessionTypes: ClassType[] = [
   {
     title: "Beginner Yoga",
     description:
@@ -37,7 +37,7 @@ const sessionTypes: SessionType[] = [
   },
 ];
 
-export default function YogaSessions() {
+export default function YogaClasses() {
   return (
     <section className="py-16">
       <div className="max-w-7xl mx-auto px-4">
