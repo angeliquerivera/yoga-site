@@ -12,23 +12,27 @@ interface SessionType {
 
 const sessionTypes: SessionType[] = [
   {
-    title: "Beginners Yoga",
-    description: "A gentle introduction to basic yoga postures",
+    title: "Beginner Yoga",
+    description:
+      "A introduction to basic yoga postures. This style is slower paced, and focuses on safe body alignment.",
     icon: <TbYoga className="w-14 h-14 mb-2 text-purple-600" />,
   },
   {
     title: "Chair Yoga",
-    description: "A low impact way to improve strength and flexibility",
+    description:
+      "A modified version of traditional yoga, using chair to perform postures while seared and to help with balance for standing postures.",
     icon: <PiChairDuotone className="w-14 h-14 mb-2 text-purple-600" />,
   },
   {
     title: "Restorative Yoga",
-    description: "Passive stretching and relaxation to enhance your well-being",
+    description:
+      "A gentle, slow paced yoga practice aimed at promoting relaxation and stress reduction. Poses are held for 5-10 minutes each, utilizing props such as blankets, bolsters, blocks, and straps to support the body.",
     icon: <PiFlowerLotusDuotone className="w-14 h-14 mb-2 text-purple-600" />,
   },
   {
-    title: "Yin & Slow Flow Yoga",
-    description: "Breath awareness and mindfulness while posing.",
+    title: "Yin Yoga",
+    description:
+      "Focuses on passive stretching and relaxing your muscles rather than actively engaging them.",
     icon: <FaYinYang className="w-12 h-12 mb-4 text-purple-600" />,
   },
 ];
