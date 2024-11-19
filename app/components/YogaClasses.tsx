@@ -40,7 +40,7 @@ const sessionTypes: ClassType[] = [
     title: "Slow Flow Yoga",
     description:
       "A slow paced Vinyasa class where postures are linked together with the breath in a flowing sequence.",
-    icon: <GrYoga className="w-12 h-12 mb-4 text-purple-600" />,
+    icon: <GrYoga className="w-14 h-14 mb-4 text-purple-600" />,
   },
 ];
 
