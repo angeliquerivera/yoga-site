@@ -1,7 +1,12 @@
 import React from "react";
+import type { Metadata } from "next";
 import YingYangDresses from "./components/YingYangDresses";
 import Quotes from "./components/Quotes";
 import "tailwindcss/tailwind.css";
+
+export const metadata: Metadata = {
+  title: "Bio",
+};
 
 export default function Bio() {
   return (

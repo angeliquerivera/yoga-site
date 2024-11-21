@@ -11,6 +11,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
 .custom-background {
   background-image: url("../public/lightmandala.jpg");
   background-size: cover;
