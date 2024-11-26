@@ -60,7 +60,7 @@ export default function Navbar() {
         ></div>
 
         <div
-          className={`fixed top-0 right-0 h-full w-64 bg-purple-300 shadow-xl bg-opacity-45 transform transition-transform duration-300 ease-in-out z-50 ${
+          className={`lg:hidden fixed top-0 right-0 h-full w-64 bg-purple-300 shadow-xl bg-opacity-45 transform transition-transform duration-300 ease-in-out z-50 ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
@@ -71,7 +71,7 @@ export default function Navbar() {
             &times;
           </button>
 
-          <div className="flex flex-col p-6">
+          <div className="lg:hidden flex flex-col p-6">
             <ul className="space-y-4">
               <Link href="/">
                 <li
@@ -99,7 +99,7 @@ export default function Navbar() {
               </Link>
               <Link href="/contact">
                 <li
-                  className="text-xl text-blackhover:text-purple-600 cursor-pointer"
+                  className="text-xl text-black hover:text-purple-600 cursor-pointer"
                   onClick={toggleMenu}
                 >
                   Contact Us
