@@ -56,16 +56,16 @@ export default function Navbar() {
               ? "opacity-100 translate-x-0"
               : "opacity-0 translate-x-full"
           }`}
-          onClick={toggleMenu} // Close the menu if clicking outside of it
+          onClick={toggleMenu}
         ></div>
 
         <div
-          className={`lg:hidden fixed top-0 right-0 h-full w-64 bg-purple-300 shadow-xl bg-opacity-45 transform transition-transform duration-300 ease-in-out z-50 ${
+          className={`lg:hidden fixed top-0 right-0 h-full w-64 bg-purple-200 shadow-xl transform transition-transform duration-300 ease-in-out z-50 ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
           <button
-            className="absolute top-4 right-4 text-2xl text-gray-600"
+            className="absolute top-4 right-2 text-5xl text-gray-600"
             onClick={toggleMenu}
           >
             &times;
@@ -75,7 +75,7 @@ export default function Navbar() {
             <ul className="space-y-4">
               <Link href="/">
                 <li
-                  className="text-xl text-black hover:text-purple-600 cursor-pointer"
+                  className="text-2xl mb-4 text-black hover:text-purple-600 cursor-pointer"
                   onClick={toggleMenu}
                 >
                   Home
@@ -83,7 +83,7 @@ export default function Navbar() {
               </Link>
               <Link href="/bio">
                 <li
-                  className="text-xl text-black hover:text-purple-600 cursor-pointer"
+                  className="text-2xl mb-4 text-black hover:text-purple-600 cursor-pointer"
                   onClick={toggleMenu}
                 >
                   Bio
@@ -91,7 +91,7 @@ export default function Navbar() {
               </Link>
               <Link href="/calendar">
                 <li
-                  className="text-xl text-blackhover:text-purple-600 cursor-pointer"
+                  className="text-2xl mb-4 text-blackhover:text-purple-600 cursor-pointer"
                   onClick={toggleMenu}
                 >
                   Calendar
@@ -99,7 +99,7 @@ export default function Navbar() {
               </Link>
               <Link href="/contact">
                 <li
-                  className="text-xl text-black hover:text-purple-600 cursor-pointer"
+                  className="text-2xl mb-4 text-black hover:text-purple-600 cursor-pointer"
                   onClick={toggleMenu}
                 >
                   Contact Us
