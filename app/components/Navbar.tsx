@@ -35,7 +35,7 @@ export default function Navbar() {
           onClick={toggleMenu}
         >
           <svg
-            className="w-7 h-7"
+            className="w-7 h-7 mr-2 mb-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
