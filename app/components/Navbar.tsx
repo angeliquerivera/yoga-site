@@ -11,7 +11,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+    setIsMenuOpen((state) => !state);
   };
 
   return (
@@ -35,7 +35,7 @@ export default function Navbar() {
           onClick={toggleMenu}
         >
           <svg
-            className="w-7 h-7"
+            className="w-7 h-7 mr-2 mb-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -51,10 +51,65 @@ export default function Navbar() {
         </button>
 
         <div
-          className={`${
-            isMenuOpen ? "block" : "hidden"
-          } lg:flex flex-col lg:flex-row lg:space-x-6 space-y-4 lg:space-y-0 mr-4`}
+          className={`lg:hidden fixed inset-0 bg-gray-800 bg-opacity-50 z-40 transform transition-all duration-300 ease-in-out ${
+            isMenuOpen
+              ? "opacity-100 translate-x-0"
+              : "opacity-0 translate-x-full"
+          }`}
+          onClick={toggleMenu}
+        ></div>
+
+        <div
+          className={`lg:hidden fixed top-0 right-0 h-full w-64 bg-purple-200 shadow-xl transform transition-transform duration-300 ease-in-out z-50 ${
+            isMenuOpen ? "translate-x-0" : "translate-x-full"
+          }`}
         >
+          <button
+            className="absolute top-4 right-2 text-5xl text-gray-600"
+            onClick={toggleMenu}
+          >
+            &times;
+          </button>
+
+          <div className="lg:hidden flex flex-col p-6">
+            <ul className="space-y-4">
+              <Link href="/">
+                <li
+                  className="text-2xl mb-4 text-black hover:text-purple-600 cursor-pointer"
+                  onClick={toggleMenu}
+                >
+                  Home
+                </li>
+              </Link>
+              <Link href="/bio">
+                <li
+                  className="text-2xl mb-4 text-black hover:text-purple-600 cursor-pointer"
+                  onClick={toggleMenu}
+                >
+                  Bio
+                </li>
+              </Link>
+              <Link href="/calendar">
+                <li
+                  className="text-2xl mb-4 text-blackhover:text-purple-600 cursor-pointer"
+                  onClick={toggleMenu}
+                >
+                  Calendar
+                </li>
+              </Link>
+              <Link href="/contact">
+                <li
+                  className="text-2xl mb-4 text-black hover:text-purple-600 cursor-pointer"
+                  onClick={toggleMenu}
+                >
+                  Contact Us
+                </li>
+              </Link>
+            </ul>
+          </div>
+        </div>
+
+        <div className="hidden lg:flex flex-col lg:flex-row lg:space-x-6 space-y-4 lg:space-y-0 mr-4">
           <ul className="flex-wrap sm:flex gap-4">
             <Link href="/">
               <li className="hover:text-purple-800 hover:underline text-xl">
