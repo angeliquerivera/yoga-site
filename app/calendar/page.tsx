@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 const eventsData = [
   {
-    id: 2,
+    id: 1,
     title: "Sync, Seat, and Be Merry!",
     date: "12-28-2024",
     description:
@@ -23,7 +23,7 @@ const eventsData = [
       "https://www.google.com/calendar/render?action=TEMPLATE&text=Sync%2C+Seat%2C+and+Be+Merry%21&dates=20241228T190000Z%2F20241228T210000Z&details=Celebrate+Christmas+with+a+1+hour+Chair+Yoga+class%2C+followed+by+snacks+and+beverages&location=12+Sunrise+Hill+Road%2C+Fishkill%2C+NY",
   },
   {
-    id: 3,
+    id: 2,
     title: "New Year, New Outlook",
     date: "01-10-2025",
     description:
