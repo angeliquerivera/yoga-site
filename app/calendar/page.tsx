@@ -9,20 +9,6 @@ export const metadata: Metadata = {
 };
 const eventsData = [
   {
-    id: 1,
-    title: "Holiday Holistic HoeDown",
-    date: "12-26-2024",
-    description:
-      "Celebrate the holidays with a fusion of Vinyasa Yoga & line dancing to holiday-themed country music! Activities followed by snacks, beverages, and raffles. 90 min class, suitable for all levels of fitness",
-    location: "12 Sunrise Hill Road, Fishkill, NY",
-    googleMapsUrl: "https://maps.app.goo.gl/DX61euWwEaR4Hnh76",
-    time: "2:00pm-4:00pm",
-    price: "$15.00 per person",
-    rsvpDeadline: "Dec 22nd",
-    googleCalendarUrl:
-      "https://www.google.com/calendar/render?action=TEMPLATE&text=Holistic+Holiday+HoeDown%21&dates=20241226T190000Z%2F20241226T210000Z&details=Celebrate+the+holidays+with+a+fusion+of+Vinyasa+Yoga+%26+line+dancing+to+holiday-themed+country+music%21+Activities+followed+by+snacks%2C+beverages%2C+and+raffles.+90+min+class%2C+suitable+for+all+levels+of+fitness.&location=12+Sunrise+Hill+Road%2C+Fishkill%2C+NY",
-  },
-  {
     id: 2,
     title: "Sync, Seat, and Be Merry!",
     date: "12-28-2024",
