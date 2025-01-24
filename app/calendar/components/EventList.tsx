@@ -25,8 +25,8 @@ export default function EventList({ events }: EventListProps) {
       <h1 className="text-3xl font-bold mb-4">Upcoming Events</h1>
       <div className="grid grid-cols-1 gap-6">
         {events.map((event, index) => {
-          const titleClass = index === 2 ? "third-event-title" : "event-title";
-          const dateClass = index === 2 ? "third-event-date" : "event-date";
+          const titleClass = index === 3 ? "fourth-event-title" : "event-title";
+          const dateClass = index === 3 ? "fourth-event-date" : "event-date";
 
           return (
             <EventCard
