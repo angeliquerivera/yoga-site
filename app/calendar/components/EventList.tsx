@@ -5,14 +5,14 @@ import "../../styles/styles.css";
 interface Event {
   id: number;
   date: string;
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   location: string;
   googleMapsUrl: string;
-  time: string;
+  time?: string;
   price: string;
   rsvpDeadline: string;
-  googleCalendarUrl: string;
+  googleCalendarUrl?: string;
   subEvents?: { title: string; time: string; description: string; googleCalendarUrl: string; }[];
 }
 

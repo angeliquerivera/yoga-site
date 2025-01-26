@@ -5,15 +5,15 @@ interface Event {
   id: number;
   date: string;
   dateClass: string;
-  title: string;
+  title?: string;
   titleClass: string;
-  description: string;
+  description?: string;
   location: string;
   googleMapsUrl: string;
-  time: string;
+  time?: string;
   price: string;
   rsvpDeadline: string;
-  googleCalendarUrl: string;
+  googleCalendarUrl?: string;
   subEvents?: { title: string; time: string; description: string;googleCalendarUrl: string; }[];
 }
 export default function EventCard({
