@@ -13,6 +13,7 @@ interface Event {
   price: string;
   rsvpDeadline: string;
   googleCalendarUrl: string;
+  subEvents?: { title: string; time: string; description: string; googleCalendarUrl: string; }[];
 }
 
 interface EventListProps {
