@@ -7,6 +7,7 @@ import "tailwindcss/tailwind.css";
 export const metadata: Metadata = {
   title: "Calendar",
 };
+
 const eventsData = [
   {
     id: 1,
@@ -77,6 +78,7 @@ const eventsData = [
   },
 ];
 
+
 export default function Workshops() {
   return (
     <main className="min-h-screen">
@@ -85,6 +87,7 @@ export default function Workshops() {
       </div>
       <div className="flex justify-center">
         <p className="font-bold text-lg">**No March Events**</p>
+
       </div>
       <div className="flex justify-center">
         <p className="font-bold text-lg">
