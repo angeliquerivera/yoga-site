@@ -24,16 +24,17 @@
 }
 
 .event-title {
-  color: darkred;
+  color: black;
 }
 
-.third-event-title {
-  color: darkblue;
-}
 .event-date {
-  color: darkgreen;
+  color: black;
 }
 
-.third-event-date {
-  color: dimgrey;
+.fourth-event-title {
+  color: red;
+}
+
+.fourth-event-date {
+  color: fuchsia;
 }
