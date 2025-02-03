@@ -37,8 +37,7 @@ const eventsData = [
     googleCalendarUrl:
       "https://www.google.com/calendar/render?action=TEMPLATE&text=Yinyasa+Workshop&dates=20250202T190000Z%2F20250202T210000Z&details=A+brief+explanation+of+the+benefits+of+yin+yoga+followed+by+15+minutes+of+breathwork%2C+30+minutes+of+slow+flow+yinyasa+postures%2C+and+30+minutes+of+yin+poses.&location=Residence+Inn+White+Plains%2C+White+Plains%2C+NY&trp=true",
   },
-  {
-    id: 3,
+  { id: 3,
     date: "02-08-2025",
     location: "Residence Inn White Plains",
     googleMapsUrl: "https://g.co/kgs/joaHH9o",
