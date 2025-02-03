@@ -7,6 +7,7 @@ import "tailwindcss/tailwind.css";
 export const metadata: Metadata = {
   title: "Calendar",
 };
+
 const eventsData = [
   {
     id: 1,
