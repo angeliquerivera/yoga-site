@@ -12,7 +12,7 @@ const eventsData = [
   {
     id: 1,
     title:
-      "Come and join me at Inner Peace & Outer Strength LLC for my Soft Opening!",
+      "Inner Peace & Outer Strength LLC is excited to announce their Soft Opening!",
     dates: ["05-31-2025", " & ", "06-01-2025"],
     description:
       "2:00-3:00pm: Learn about my studio, the different styles I teach and the type of classes I will be offering.\n3:00-4:00pm: 60 minute Beginners Yoga class\n4:00-5:00pm: Herbal teas, fruit juices, and vegan & gluten-free snacks",
@@ -35,9 +35,9 @@ export default function Workshops() {
         {/* <p className="font-bold text-lg">**No March Events**</p> */}
       </div>
       <div className="flex justify-center">
-        <p className="font-bold text-lg">
+        {/* <p className="font-bold text-lg">
           *Space is limited for all workshops*
-        </p>
+        </p> */}
       </div>
     </main>
   );
