@@ -13,7 +13,6 @@ interface Event {
   time?: string;
   price: string;
   rsvpDeadline: string;
-  googleCalendarUrl?: string;
 }
 
 interface EventListProps {
