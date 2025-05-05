@@ -16,6 +16,9 @@ const eventsData = [
     dates: ["05-31-2025", " & ", "06-01-2025"],
     description:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 38a2c5df623dac022f98185d0e2a8be1568002cc
       "2:00-3:00pm: Learn about my studio, the different styles I teach and the type of classes I will be offering.\n3:00-4:00pm: 60 minute Beginners Yoga class\n4:00-5:00pm: Herbal teas, fruit juices, and vegan & gluten-free snacks",
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
@@ -23,6 +26,7 @@ const eventsData = [
     price: "FREE OF CHARGE",
     rsvpDeadline:
       "May 23rd (space is limited to 12 people so please choose one date only)",
+<<<<<<< HEAD
 =======
       "A brief explanation of the benefits of yin yoga followed by 15 minutes of breathwork, 30 minutes of slow flow vinyasa postures, and 30 minutes of yin postures",
     location: "Residence Inn White Plains",
@@ -88,6 +92,8 @@ const eventsData = [
     googleCalendarUrl:
       "https://www.google.com/calendar/render?action=TEMPLATE&text=A+Galentine%27s+featuring+Mary+Kay+products&dates=20250216T190000Z%2F20250216T230000Z&details=Skincare+featuring+MK+products%2C+face+masks+and+10+minute+hand+massages.+There+will+be+beverages%2C+light+snacks%2C+raffles%2C+and+prizes%21&location=Opus+Westchester%2C+White+Plains%2C+NY",
 >>>>>>> dev
+=======
+>>>>>>> 38a2c5df623dac022f98185d0e2a8be1568002cc
   },
 ];
 
@@ -99,10 +105,14 @@ export default function Workshops() {
       </div>
       <div className="flex justify-center">
 <<<<<<< HEAD
+<<<<<<< HEAD
         {/* <p className="font-bold text-lg">**No March Events**</p> */}
 =======
         <p className="font-bold text-lg">**No March Events**</p>
 >>>>>>> dev
+=======
+        {/* <p className="font-bold text-lg">**No March Events**</p> */}
+>>>>>>> 38a2c5df623dac022f98185d0e2a8be1568002cc
       </div>
       <div className="flex justify-center">
         {/* <p className="font-bold text-lg">
