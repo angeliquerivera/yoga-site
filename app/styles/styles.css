@@ -24,17 +24,9 @@
 }
 
 .event-title {
-  color: black;
+  color: darkviolet;
 }
 
 .event-date {
   color: black;
-}
-
-.fourth-event-title {
-  color: red;
-}
-
-.fourth-event-date {
-  color: fuchsia;
 }

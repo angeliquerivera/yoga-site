@@ -11,9 +11,19 @@ export const metadata: Metadata = {
 const eventsData = [
   {
     id: 1,
-    title: "Yinyasa Workshop",
-    date: "02-01-2025",
+    title:
+      "Inner Peace & Outer Strength LLC is excited to announce their Soft Opening!",
+    dates: ["05-31-2025", " & ", "06-01-2025"],
     description:
+<<<<<<< HEAD
+      "2:00-3:00pm: Learn about my studio, the different styles I teach and the type of classes I will be offering.\n3:00-4:00pm: 60 minute Beginners Yoga class\n4:00-5:00pm: Herbal teas, fruit juices, and vegan & gluten-free snacks",
+    location: "12 Sunrise Hill Road, Fishkill, NY",
+    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
+    time: "2:00pm-5:00pm",
+    price: "FREE OF CHARGE",
+    rsvpDeadline:
+      "May 23rd (space is limited to 12 people so please choose one date only)",
+=======
       "A brief explanation of the benefits of yin yoga followed by 15 minutes of breathwork, 30 minutes of slow flow vinyasa postures, and 30 minutes of yin postures",
     location: "Residence Inn White Plains",
     googleMapsUrl: "https://g.co/kgs/joaHH9o",
@@ -37,7 +47,8 @@ const eventsData = [
     googleCalendarUrl:
       "https://www.google.com/calendar/render?action=TEMPLATE&text=Yinyasa+Workshop&dates=20250202T190000Z%2F20250202T210000Z&details=A+brief+explanation+of+the+benefits+of+yin+yoga+followed+by+15+minutes+of+breathwork%2C+30+minutes+of+slow+flow+yinyasa+postures%2C+and+30+minutes+of+yin+poses.&location=Residence+Inn+White+Plains%2C+White+Plains%2C+NY&trp=true",
   },
-  { id: 3,
+  {
+    id: 3,
     date: "02-08-2025",
     location: "Residence Inn White Plains",
     googleMapsUrl: "https://g.co/kgs/joaHH9o",
@@ -76,6 +87,7 @@ const eventsData = [
     rsvpDeadline: "February 14th",
     googleCalendarUrl:
       "https://www.google.com/calendar/render?action=TEMPLATE&text=A+Galentine%27s+featuring+Mary+Kay+products&dates=20250216T190000Z%2F20250216T230000Z&details=Skincare+featuring+MK+products%2C+face+masks+and+10+minute+hand+massages.+There+will+be+beverages%2C+light+snacks%2C+raffles%2C+and+prizes%21&location=Opus+Westchester%2C+White+Plains%2C+NY",
+>>>>>>> dev
   },
 ];
 
@@ -86,12 +98,16 @@ export default function Workshops() {
         <EventList events={eventsData} />
       </div>
       <div className="flex justify-center">
+<<<<<<< HEAD
+        {/* <p className="font-bold text-lg">**No March Events**</p> */}
+=======
         <p className="font-bold text-lg">**No March Events**</p>
+>>>>>>> dev
       </div>
       <div className="flex justify-center">
-        <p className="font-bold text-lg">
+        {/* <p className="font-bold text-lg">
           *Space is limited for all workshops*
-        </p>
+        </p> */}
       </div>
     </main>
   );
