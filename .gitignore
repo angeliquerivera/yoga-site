@@ -1,5 +1,10 @@
 node_modules/
-.next/
-tina/
-__generated__
+.next
+
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
+node_modules
 .env
