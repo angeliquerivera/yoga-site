@@ -3,8 +3,8 @@ import "../../styles/styles.css";
 
 interface Event {
   id: number;
-  // date:string;
-  dates: string[];
+  date: string;
+  // dates: string[];
   title?: string;
   description?: string;
   location: string;
@@ -15,8 +15,8 @@ interface Event {
 }
 export default function EventCard({
   id,
-  // date,
-  dates,
+  date,
+  // dates,
   title,
   description,
   location,
@@ -27,20 +27,20 @@ export default function EventCard({
 }: Event) {
   return (
     <div className="p-4  border-violet-800 border-4 rounded shadow hover:shadow-lg transition bg-primary bg-opacity-50 ">
-      <p className="text-2xl">{dates}</p>
-      <h2 className="text-xl font-bold event-title">{title}</h2>
-      <p className="text-xl">{time}</p>
+      <h2 className="text-3xl font-bold event-title">{title}</h2>
+      <p className="text-2xl font-semibold">{date}</p>
+      <p className="text-xl font-medium">{time}</p>
       <p className="mt-2 text-lg whitespace-pre-line">{description}</p>
       <a
         href={googleMapsUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-900 underline mt-4"
+        className="text-blue-900 underline mt-4 text-lg"
       >
         {location}
       </a>
       <p className="mt-2 text-lg font-semibold">{price}</p>
-      <p className="mt-2 font-bold">RSVP by: {rsvpDeadline}</p>
+      {/* <p className="mt-2 font-bold">RSVP by: {rsvpDeadline}</p> */}
     </div>
   );
 }
