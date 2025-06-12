@@ -4,8 +4,8 @@ import "../../styles/styles.css";
 
 interface Event {
   id: number;
-  // date: string;
-  dates: string[];
+  date: string;
+  // dates: string[];
   title?: string;
   description?: string;
   location: string;
