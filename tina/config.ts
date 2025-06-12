@@ -2,6 +2,7 @@ import { defineConfig } from "tinacms";
 
 // Your hosting provider likely exposes this as an environment variable
 
+
 const branch = process.env.NEXT_PUBLIC_TINA_BRANCH || "main";
 
 
