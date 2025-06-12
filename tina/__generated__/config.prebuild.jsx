@@ -1,11 +1,10 @@
 // tina/config.ts
 import { defineConfig } from "tinacms";
-var branch = process.env.GITHUB_BRANCH || process.env.VERCEL_GIT_COMMIT_REF || process.env.HEAD || "main";
+var branch = process.env.NEXT_PUBLIC_TINA_BRANCH || "main";
 var config_default = defineConfig({
   branch,
   // Get this from tina.io
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
-  // Get this from tina.io
   token: process.env.TINA_TOKEN,
   build: {
     outputFolder: "admin",
