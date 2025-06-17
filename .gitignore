@@ -2,10 +2,3 @@ node_modules/
 .next
 
 
-.env*
-.flaskenv*
-!.env.project
-!.env.vault
-node_modules
-.env
-__generated__
