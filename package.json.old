@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "cross-env TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"next dev\"",
+    "build": "tinacms build && next build",
+    "start": "tinacms build && next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,9 +15,11 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.53.1",
-    "react-icons": "^5.3.0"
+    "react-icons": "^5.3.0",
+    "tinacms": "^2.7.5"
   },
   "devDependencies": {
+    "@tinacms/cli": "^1.9.5",
     "@types/node": "^22.15.30",
     "@types/react": "^18.3.4",
     "autoprefixer": "^10.4.20",
