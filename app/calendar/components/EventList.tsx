@@ -20,6 +20,10 @@ interface EventListProps {
 }
 
 export default function EventList({ events }: EventListProps) {
+  if (!events || !Array.isArray(events)) {
+    return <p>No events available at this time.</p>;
+  }
+
   return (
     <div className="max-w-4xl mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">Upcoming Events</h1>
