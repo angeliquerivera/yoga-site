@@ -10,8 +10,8 @@ interface Event {
   location: string;
   googleMapsUrl: string;
   time?: string;
-  price: string;
-  rsvpDeadline: string;
+  price?: string;
+  rsvpDeadline?: string;
 }
 export default function EventCard({
   id,
@@ -39,8 +39,8 @@ export default function EventCard({
       >
         {location}
       </a>
-      <p className="mt-2 text-lg font-semibold">{price}</p>
-      {/* <p className="mt-2 font-bold">RSVP by: {rsvpDeadline}</p> */}
+      {<p className="mt-2 text-lg font-semibold">{price}</p>}
+      {<p className="mt-2 font-bold">{rsvpDeadline}</p>}
     </div>
   );
 }
