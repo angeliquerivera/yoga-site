@@ -15,7 +15,7 @@ const eventsData = [
       "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
     date: "Sunday, September 28th, 2025",
     description:
-      "1:00-1:45pm: Learn about my studio, the different styles I teach and the type of classes I will be offering\n1:45-3:00pm: 60 minute Beginners Yoga class\n3:00-4:00pm: Herbal teas, fruit juices, and snacks",
+      "1:00-1:45pm: Learn about my studio, the different styles I teach and the type of classes I will be offering\n1:45-3:00pm: Beginners Yoga class\n3:00-4:00pm: Herbal teas, fruit juices, and snacks",
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
     time: "1:00pm-4:00pm",
@@ -32,7 +32,7 @@ export default function Workshops() {
       </div>
       <div className="flex justify-center">
         <p className="font-bold text-lg">
-          *Space is limited for all workshops*
+          *Space is limited, so please text 845-591-3223 if you will be attending*
         </p>
       </div>
     </main>
