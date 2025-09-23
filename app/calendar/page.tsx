@@ -32,7 +32,8 @@ export default function Workshops() {
       </div>
       <div className="flex justify-center">
         <p className="font-bold text-lg">
-          *Space is limited, so please text 845-591-3223 if you will be attending*
+          *Space is limited, so please text 845-591-3223 if you will be
+          attending*
         </p>
       </div>
     </main>
