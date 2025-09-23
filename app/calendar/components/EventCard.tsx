@@ -27,10 +27,16 @@ export default function EventCard({
 }: Event) {
   return (
     <div className="p-4  border-violet-800 border-4 rounded shadow hover:shadow-lg transition bg-primary bg-opacity-50 ">
-      <h2 className="text-3xl font-bold event-title">{title}</h2>
+      <h2 className="text-2xl font-bold event-title">{title}</h2>
       <p className="text-2xl font-semibold">{date}</p>
-      <p className="text-xl font-medium">{time}</p>
-      <p className="mt-2 text-lg whitespace-pre-line">{description}</p>
+      <p className="text-2xl font-medium">{time}</p>
+      <p
+        className={`mt-2 whitespace-pre-line ${
+          id === 1 ? "text-xl" : "text-2xl"
+        } `}
+      >
+        {description}
+      </p>
       <a
         href={googleMapsUrl}
         target="_blank"
