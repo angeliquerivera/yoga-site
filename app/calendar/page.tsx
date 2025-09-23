@@ -12,15 +12,15 @@ const eventsData = [
   {
     id: 1,
     title:
-      "Inner Peace & Outer Strength LLC is excited to announce their Soft Opening!",
-    date: "Saturday, June 28th, 2025",
+      "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
+    date: "Sunday, September 28th, 2025",
     description:
-      "2:00-3:00pm: Learn about my studio, the different styles I teach and the type of classes I will be offering.\n3:00-4:00pm: 60 minute Beginners Yoga class\n4:00-5:00pm: Herbal teas, fruit juices, and vegan & gluten-free snacks",
+      "1:00-1:45pm: Learn about my studio, the different styles I teach and the type of classes I will be offering\n1:45-3:00pm: 60 minute Beginners Yoga class\n3:00-4:00pm: Herbal teas, fruit juices, and snacks",
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "2:00pm-5:00pm",
-    price: "No cost, but must sign up online",
-    rsvpDeadline: "June 26th",
+    time: "1:00pm-4:00pm",
+    // price: "Free",
+    // rsvpDeadline: "Sept 22nd"
   },
 ];
 
@@ -31,12 +31,9 @@ export default function Workshops() {
         <EventList events={eventsData} />
       </div>
       <div className="flex justify-center">
-        {/* <p className="font-bold text-lg">**No March Events**</p> */}
-      </div>
-      <div className="flex justify-center">
-        {/* <p className="font-bold text-lg">
+        <p className="font-bold text-lg">
           *Space is limited for all workshops*
-        </p> */}
+        </p>
       </div>
     </main>
   );
