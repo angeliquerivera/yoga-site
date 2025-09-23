@@ -19,8 +19,8 @@ const eventsData = [
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
     time: "1:00pm-4:00pm",
-    // price: "No cost, but must sign up online",
-    // rsvpDeadline: "June 26th",
+    // price: "Free",
+    // rsvpDeadline: "Sept 22nd"
   },
 ];
 
@@ -29,9 +29,6 @@ export default function Workshops() {
     <main className="min-h-screen">
       <div>
         <EventList events={eventsData} />
-      </div>
-      <div className="flex justify-center">
-        {/* <p className="font-bold text-lg">**No March Events**</p> */}
       </div>
       <div className="flex justify-center">
         <p className="font-bold text-lg">

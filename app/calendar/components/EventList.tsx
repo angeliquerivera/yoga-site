@@ -11,8 +11,8 @@ interface Event {
   location: string;
   googleMapsUrl: string;
   time?: string;
-  price: string;
-  rsvpDeadline: string;
+  price?: string;
+  rsvpDeadline?: string;
 }
 
 interface EventListProps {
