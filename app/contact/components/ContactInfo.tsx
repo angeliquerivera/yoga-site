@@ -35,8 +35,8 @@ export default function ContactInfo() {
         <div className="flex items-center mb-2">
           <FontAwesomeIcon icon={faPhone} className="mr-2" />
           <span>
-            <a href="tel:+8458212333" className="text-purple-950">
-              845-821-2333
+            <a href="tel:+8455913223" className="text-purple-950">
+              845-591-3223
             </a>
           </span>
         </div>
