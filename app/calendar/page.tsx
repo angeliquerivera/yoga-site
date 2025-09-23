@@ -22,6 +22,90 @@ const eventsData = [
     // price: "Free",
     // rsvpDeadline: "Sept 22nd"
   },
+  {
+    id: 2,
+    // title:
+    //   "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
+    date: "Saturday, October 4th, 2025",
+    description: "Slow Flow",
+    location: "12 Sunrise Hill Road, Fishkill, NY",
+    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
+    time: "10:00am-11:45am",
+    // price: "Free",
+    // rsvpDeadline: "Sept 22nd"
+  },
+  {
+    id: 3,
+    // title:
+    // "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
+    date: "Sunday, October 5th, 2025",
+    description: "Vin Yin",
+    location: "12 Sunrise Hill Road, Fishkill, NY",
+    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
+    time: "10:00am-11:45am",
+    // price: "Free",
+    // rsvpDeadline: "Sept 22nd"
+  },
+  {
+    id: 4,
+    // title:
+    // "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
+    date: "Saturday, October 11th, 2025",
+    description: "Chair Yoga",
+    location: "12 Sunrise Hill Road, Fishkill, NY",
+    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
+    time: "10:00am-11:45am",
+    // price: "Free",
+    // rsvpDeadline: "Sept 22nd"
+  },
+  {
+    id: 5,
+    // title:
+    // "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
+    date: "Sunday, October 12th, 2025",
+    description: "Restorative Yoga",
+    location: "12 Sunrise Hill Road, Fishkill, NY",
+    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
+    time: "10:00am-11:45am",
+    // price: "Free",
+    // rsvpDeadline: "Sept 22nd"
+  },
+  {
+    id: 6,
+    // title:
+    // "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
+    date: "Saturday October 18th, 2025",
+    description: "Vin Yin",
+    location: "12 Sunrise Hill Road, Fishkill, NY",
+    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
+    time: "10:00am-11:45am",
+    // price: "Free",
+    // rsvpDeadline: "Sept 22nd"
+  },
+  {
+    id: 7,
+    // title:
+    // "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
+    date: "Saturday, October 25th, 2025",
+    description: "Slow Flow",
+    location: "12 Sunrise Hill Road, Fishkill, NY",
+    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
+    time: "10:00am-11:45am",
+    // price: "Free",
+    // rsvpDeadline: "Sept 22nd"
+  },
+  {
+    id: 8,
+    // // title:
+    //   "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
+    date: "Sunday, October 26th, 2025",
+    description: "Chair Yoga",
+    location: "12 Sunrise Hill Road, Fishkill, NY",
+    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
+    time: "10:00am-11:45am",
+    // price: "Free",
+    // rsvpDeadline: "Sept 22nd"
+  },
 ];
 
 export default function Workshops() {
@@ -32,7 +116,8 @@ export default function Workshops() {
       </div>
       <div className="flex justify-center">
         <p className="font-bold text-lg">
-          *Space is limited, so please text 845-591-3223 if you will be attending*
+          *Space is limited, so please text 845-591-3223 if you will be
+          attending*
         </p>
       </div>
     </main>
