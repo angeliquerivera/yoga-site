@@ -31,7 +31,7 @@ const eventsData = [
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
     time: "10:30am-11:45am",
-    // price: "Free",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -43,7 +43,7 @@ const eventsData = [
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
     time: "10:30am-11:45am",
-    // price: "Free",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -55,7 +55,7 @@ const eventsData = [
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
     time: "10:30am-11:45am",
-    // price: "Free",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -67,7 +67,7 @@ const eventsData = [
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
     time: "10:30am-11:45am",
-    // price: "Free",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -79,7 +79,7 @@ const eventsData = [
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
     time: "10:30am-11:45am",
-    // price: "Free",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -91,7 +91,7 @@ const eventsData = [
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
     time: "10:30am-11:45am",
-    // price: "Free",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -103,7 +103,7 @@ const eventsData = [
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
     time: "10:30am-11:45am",
-    // price: "Free",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
 ];
