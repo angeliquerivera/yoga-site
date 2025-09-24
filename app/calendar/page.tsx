@@ -101,7 +101,7 @@ const eventsData = [
     date: "Sunday, October 26th, 2025",
     description: "Chair Yoga",
     location: "12 Sunrise Hill Road, Fishkill, NY",
-    googleMapsUrl: "https://g.co/kgs/7GvWkZ5", "Free",
+    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
     time: "10:30am-11:45am",
     price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
