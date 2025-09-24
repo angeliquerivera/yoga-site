@@ -101,7 +101,7 @@ const eventsData = [
     date: "Sunday, October 26th, 2025",
     description: "Chair Yoga",
     location: "12 Sunrise Hill Road, Fishkill, NY",
-    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
+    googleMapsUrl: "https://g.co/kgs/7GvWkZ5", "Free",
     time: "10:30am-11:45am",
     price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
@@ -116,8 +116,7 @@ export default function Workshops() {
       </div>
       <div className="flex justify-center">
         <p className="font-bold text-lg">
-          *Space is limited, so please text 845-591-3223 if you will be
-          attending*
+          *Space is limited, so please text 845-591-3223 if you will be attending*
         </p>
       </div>
     </main>
