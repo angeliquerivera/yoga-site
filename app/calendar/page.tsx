@@ -30,8 +30,8 @@ const eventsData = [
     description: "Slow Flow",
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:00am-11:45am",
-    // price: "Free",
+    time: "10:30am-11:45am",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -42,8 +42,8 @@ const eventsData = [
     description: "Vin Yin",
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:00am-11:45am",
-    // price: "Free",
+    time: "10:30am-11:45am",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -54,8 +54,8 @@ const eventsData = [
     description: "Chair Yoga",
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:00am-11:45am",
-    // price: "Free",
+    time: "10:30am-11:45am",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -66,8 +66,8 @@ const eventsData = [
     description: "Restorative Yoga",
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:00am-11:45am",
-    // price: "Free",
+    time: "10:30am-11:45am",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -78,8 +78,8 @@ const eventsData = [
     description: "Vin Yin",
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:00am-11:45am",
-    // price: "Free",
+    time: "10:30am-11:45am",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -90,8 +90,8 @@ const eventsData = [
     description: "Slow Flow",
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:00am-11:45am",
-    // price: "Free",
+    time: "10:30am-11:45am",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
   {
@@ -102,8 +102,8 @@ const eventsData = [
     description: "Chair Yoga",
     location: "12 Sunrise Hill Road, Fishkill, NY",
     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:00am-11:45am",
-    // price: "Free",
+    time: "10:30am-11:45am",
+    price: "$10 per person",
     // rsvpDeadline: "Sept 22nd"
   },
 ];
@@ -116,7 +116,8 @@ export default function Workshops() {
       </div>
       <div className="flex justify-center">
         <p className="font-bold text-lg">
-          *Space is limited, so please text 845-591-3223 if you will be attending*
+          *Space is limited, so please text 845-591-3223 if you will be
+          attending*
         </p>
       </div>
     </main>
