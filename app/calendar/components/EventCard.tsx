@@ -27,7 +27,7 @@ export default function EventCard({
 }: Event) {
   return (
     <div className="p-4  border-violet-800 border-4 rounded shadow hover:shadow-lg transition bg-primary bg-opacity-50 ">
-      <h2 className="text-2xl font-bold event-title">{title}</h2>
+      <h2 className="text-3xl font-bold event-title">{title}</h2>
       <p className="text-2xl font-semibold">{date}</p>
       <p className="text-2xl font-medium">{time}</p>
       <p
