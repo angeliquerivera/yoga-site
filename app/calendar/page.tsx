@@ -59,18 +59,6 @@ const eventsData = [
     // rsvpDeadline: "Sept 22nd"
   },
   {
-    id: 5,
-    // title:
-    // "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
-    date: "Sunday, October 12th, 2025",
-    description: "Restorative Yoga",
-    location: "12 Sunrise Hill Road, Fishkill, NY",
-    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:30am-11:45am",
-    price: "$10 per person",
-    // rsvpDeadline: "Sept 22nd"
-  },
-  {
     id: 6,
     // title:
     // "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
