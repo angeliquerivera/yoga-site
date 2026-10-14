@@ -2,7 +2,6 @@ import React from "react";
 import type { Metadata } from "next";
 import EventList from "./components/EventList";
 import "../styles/styles.css";
-import "tailwindcss/tailwind.css";
 
 export const metadata: Metadata = {
   title: "Calendar",
@@ -27,9 +26,9 @@ const eventsData = [
 export default function Workshops() {
   return (
     <main className="min-h-screen">
-      <div>
+      {/* <div>
         <EventList events={eventsData} />
-      </div>
+      </div> */}
       {/* <div className="flex justify-center">
         <p className="font-bold text-lg">
           *Classes after Grand Opening month will be $15 a person*

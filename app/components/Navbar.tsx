@@ -4,8 +4,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import yingyang from "../public/yingyang.jpg";
-import "../styles/styles.css";
-import "tailwindcss/tailwind.css";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
