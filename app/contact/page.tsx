@@ -2,8 +2,6 @@ import React from "react";
 import type { Metadata } from "next";
 import ContactForm from "./components/ContactForm";
 import ContactInfo from "./components/ContactInfo";
-import "../styles/styles.css";
-import "tailwindcss/tailwind.css";
 
 export const metadata: Metadata = {
   title: "Contact Us",

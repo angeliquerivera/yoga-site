@@ -1,6 +1,5 @@
 import React from "react";
 import EventCard from "./EventCard";
-import "../../styles/styles.css";
 
 interface Event {
   id: number;

@@ -1,10 +1,8 @@
+import "./globals.css";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import "./styles/styles.css";
-import "tailwindcss/tailwind.css";
-
 const monsterrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
