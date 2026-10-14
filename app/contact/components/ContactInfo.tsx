@@ -4,8 +4,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import "../../styles/styles.css";
-import "tailwindcss/tailwind.css";
 
 export default function ContactInfo() {
   const handleEmailClick = () => {
@@ -14,7 +12,7 @@ export default function ContactInfo() {
     const body = "";
 
     const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
-      subject
+      subject,
     )}&body=${encodeURIComponent(body)}`;
 
     window.open(mailtoLink, "_blank");
