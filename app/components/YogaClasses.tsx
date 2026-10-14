@@ -46,15 +46,15 @@ const sessionTypes: ClassType[] = [
 
 export default function YogaClasses() {
   return (
-    <section className="py-20">
+    <section className="pb-8 flex-col">
       <div className="max-w-full mx-auto px-8">
-        <h2 className="text-3xl font-bold text-center mb-8">Classes Offered</h2>
+        <h2 className="text-4xl font-bold text-center mb-8">Classes Offered</h2>
         <div className="grid grid-cols-1 md:grid-rows-2 lg:grid-cols-5 gap-8">
           {sessionTypes.map(({ icon, title, description }, index) => (
             <div key={index} className="rounded-lg p-6 text-center">
               <div className="flex justify-center">{icon}</div>
-              <h3 className="text-xl font-semibold">{title}</h3>
-              <p className="text-black">{description}</p>
+              <h3 className="text-2xl font-semibold">{title}</h3>
+              <p className="text-black text-xl">{description}</p>
             </div>
           ))}
         </div>
