@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+.custom-background {
+  background-image: url("/lightmandala.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.event-title {
+  color: darkviolet;
+}
+
+.event-date {
+  color: black;
+}

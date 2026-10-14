@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import firsthome from "../public/firsthome.jpg";
-import secondhome from "../public/secondhome.jpg";
 
 export default function Hero() {
   return (
@@ -15,7 +13,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row justify-evenly w-full sm:w-2/3 space-y-4 sm:space-y-0 sm:space-x-4">
           <div className="w-full sm:w-1/2">
             <Image
-              src={secondhome}
+              src="/secondhome.jpg"
               alt="secondhome"
               layout="intrinsic"
               width={600}
@@ -26,7 +24,7 @@ export default function Hero() {
 
           <div className="w-full sm:w-1/2">
             <Image
-              src={firsthome}
+              src="/firsthome.jpg"
               alt="firsthome"
               layout="intrinsic"
               width={600}
