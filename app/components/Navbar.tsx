@@ -3,9 +3,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import yingyang from "../public/yingyang.jpg";
-import "../styles/styles.css";
-import "tailwindcss/tailwind.css";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +16,7 @@ export default function Navbar() {
       <nav className="flex justify-between place-items-center top-0 z-50 lg:static bg-primary bg-opacity-60 ">
         <div className="flex items-center lg:flex align-text-bottom">
           <Image
-            src={yingyang}
+            src="/yingyang.jpg"
             alt="yingyang"
             width={60}
             height={60}
@@ -94,7 +91,7 @@ export default function Navbar() {
                   className="text-2xl mb-4 text-blackhover:text-purple-600 cursor-pointer"
                   onClick={toggleMenu}
                 >
-                  Calendar
+                  Events
                 </li>
               </Link>
               <Link href="/contact">
@@ -123,7 +120,7 @@ export default function Navbar() {
             </Link>
             <Link href="/calendar">
               <li className="hover:text-purple-800 hover:underline text-xl">
-                Calendar
+                Events
               </li>
             </Link>
             <Link href="/contact">

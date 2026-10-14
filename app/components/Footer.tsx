@@ -1,6 +1,4 @@
 import React from "react";
-import "../styles/styles.css";
-import "tailwindcss/tailwind.css";
 
 export default function Footer() {
   return (

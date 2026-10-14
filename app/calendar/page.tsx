@@ -1,119 +1,62 @@
 import React from "react";
 import type { Metadata } from "next";
-import EventList from "./components/EventList";
-import "../styles/styles.css";
-import "tailwindcss/tailwind.css";
+import Image from "next/image";
+// import EventList from "./components/EventList";
 
 export const metadata: Metadata = {
-  title: "Calendar",
+  title: "Events",
 };
 
-const eventsData = [
-  {
-    id: 1,
-    title:
-      "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
-    date: "Sunday, September 28th, 2025",
-    description:
-      "1:00-1:45pm: Learn about my studio, the different styles I teach and the type of classes I will be offering\n1:45-3:00pm: Beginners Yoga class\n3:00-4:00pm: Herbal teas and light snacks",
-    location: "12 Sunrise Hill Road, Fishkill, NY",
-    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "1:00pm-4:00pm",
-    // price: "Free",
-    // rsvpDeadline: "Sept 22nd"
-  },
-  {
-    id: 2,
-    // title:
-    //   "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
-    date: "Saturday, October 4th, 2025",
-    description: "Slow Flow",
-    location: "12 Sunrise Hill Road, Fishkill, NY",
-    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:30am-11:45am",
-    price: "$10 per person",
-    // rsvpDeadline: "Sept 22nd"
-  },
-  {
-    id: 3,
-    // title:
-    // "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
-    date: "Sunday, October 5th, 2025",
-    description: "Vin Yin",
-    location: "12 Sunrise Hill Road, Fishkill, NY",
-    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:30am-11:45am",
-    price: "$10 per person",
-    // rsvpDeadline: "Sept 22nd"
-  },
-  {
-    id: 4,
-    // title:
-    // "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
-    date: "Saturday, October 11th, 2025",
-    description: "Chair Yoga",
-    location: "12 Sunrise Hill Road, Fishkill, NY",
-    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:30am-11:45am",
-    price: "$10 per person",
-    // rsvpDeadline: "Sept 22nd"
-  },
-  {
-    id: 6,
-    // title:
-    // "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
-    date: "Saturday October 18th, 2025",
-    description: "Vin Yin",
-    location: "12 Sunrise Hill Road, Fishkill, NY",
-    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:30am-11:45am",
-    price: "$10 per person",
-    // rsvpDeadline: "Sept 22nd"
-  },
-  {
-    id: 7,
-    // title:
-    // "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
-    date: "Saturday, October 25th, 2025",
-    description: "Slow Flow",
-    location: "12 Sunrise Hill Road, Fishkill, NY",
-    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:30am-11:45am",
-    price: "$10 per person",
-    // rsvpDeadline: "Sept 22nd"
-  },
-  {
-    id: 8,
-    // // title:
-    //   "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
-    date: "Sunday, October 26th, 2025",
-    description: "Chair Yoga",
-    location: "12 Sunrise Hill Road, Fishkill, NY",
-    googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
-    time: "10:30am-11:45am",
-    price: "$10 per person",
-    // rsvpDeadline: "Sept 22nd"
-  },
-];
+// const eventsData = [
+//   {
+//     id: 1,
+//     title:
+//       "Inner Peace & Outer Strength LLC is excited to announce their Grand Opening!",
+//     date: "Sunday, September 28th, 2025",
+//     description:
+//       "1:00-1:45pm: Learn about my studio, the different styles I teach and the type of classes I will be offering\n1:45-3:00pm: Beginners Yoga class\n3:00-4:00pm: Herbal teas and light snacks",
+//     location: "12 Sunrise Hill Road, Fishkill, NY",
+//     googleMapsUrl: "https://g.co/kgs/7GvWkZ5",
+//     time: "1:00pm-4:00pm",
+//     // price: "Free",
+//     // rsvpDeadline: "Sept 22nd"
+//   },
+// ];
 
 export default function Workshops() {
   return (
-    <main className="min-h-screen">
-      <div>
-        <EventList events={eventsData} />
+    <main className="min-h-screen pt-2">
+      <div className="flex justify-center items-start gap-20 flex-wrap">
+        {" "}
+        <Image
+          src="/fusionwellnessevent.jpg"
+          alt="Image of October 24th event flyer"
+          width={700}
+          height={700}
+        />
+        <Image
+          src="/fusionyoga.jpg"
+          alt="Image of October 25th event flyer"
+          width={695}
+          height={695}
+        />
       </div>
-      <div className="flex justify-center">
+
+      {/* <div>
+        <EventList events={eventsData} />
+      </div> */}
+      {/* <div className="flex justify-center">
         <p className="font-bold text-lg">
           *Classes after Grand Opening month will be $15 a person*
         </p>
-      </div>
-      <div className="flex justify-center">
+      </div> */}
+      {/* <div className="flex justify-center">
         {" "}
         <p className="font-bold text-lg justify-center">
           *Space is limited, so please text 845-591-3223 if you will be
           attending*
         </p>
-      </div>
+      </div> */}
     </main>
   );
 }

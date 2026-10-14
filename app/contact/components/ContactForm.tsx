@@ -1,8 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import "../../styles/styles.css";
-import "tailwindcss/tailwind.css";
 
 export default function ContactForm() {
   const [name, setName] = useState("");

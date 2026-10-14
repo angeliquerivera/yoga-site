@@ -1,6 +1,4 @@
 import React from "react";
-import "../../styles/styles.css";
-import "tailwindcss/tailwind.css";
 
 interface QuoteProps {
   text: string;
