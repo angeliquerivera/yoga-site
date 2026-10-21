@@ -34,7 +34,7 @@ export default function ContactInfo() {
           <FontAwesomeIcon icon={faPhone} className="mr-2" />
           <span>
             <a href="tel:+8455913223" className="text-purple-950">
-              845-591-3223
+              329-333-4263
             </a>
           </span>
         </div>
